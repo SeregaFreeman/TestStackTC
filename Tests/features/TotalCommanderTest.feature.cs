@@ -71,10 +71,12 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.Given("Application was launched, folders \"C:\\\\sub3\", \"C:\\\\sub4\" with files \"file1\", \"fil" +
                     "e2\"  were created if was needed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 5
-     testRunner.And("User selects button with proper number to access app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+     testRunner.And("User clicks button with proper number to access app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 6
  testRunner.When("User opens folder \"sub3\" in left panel, folder \"sub4\" in right panel and moves \"f" +
                     "ile1\" from left panel to right", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 7
+     testRunner.And("User confirms movement", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

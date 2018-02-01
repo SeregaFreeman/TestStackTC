@@ -34,6 +34,7 @@
       <HintPath>..\packages\Castle.Core.3.3.0\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,7 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainView.cs" />
+    <Compile Include="MoveConfirmationView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplaceOrSkipFilesView.cs" />
     <Compile Include="StartView.cs" />
   </ItemGroup>
   <ItemGroup>

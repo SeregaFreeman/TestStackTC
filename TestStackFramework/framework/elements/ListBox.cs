@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-using System.Windows;
-using TestStack.White.UIItems;
+﻿using System.Windows;
 using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems.ListBoxItems;
 using TestStack.White.UIItems.WindowItems;
