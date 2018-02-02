@@ -1,0 +1,311 @@
+2018-02-01 14:57:00,414  INFO  Starting the scenario...
+2018-02-01 14:57:06,753  INFO  List Item sub3 is found, double clicking
+2018-02-01 14:57:06,827  INFO  List Item sub4 is found, double clicking
+2018-02-01 14:57:07,503  INFO  List Item file1 is found, getting clickable point
+2018-02-01 14:57:07,766  INFO  Starting the scenario...
+2018-02-01 14:57:10,813  INFO  List Item sub3 is found, double clicking
+2018-02-01 14:57:10,883  INFO  List Item sub4 is found, double clicking
+2018-02-01 14:57:11,556  INFO  List Item file1 is found, getting clickable point
+2018-02-01 14:57:11,584  INFO  Starting the scenario...
+2018-02-01 14:57:14,769  INFO  List Item sub3 is found, double clicking
+2018-02-01 14:57:14,847  INFO  List Item sub4 is found, double clicking
+2018-02-01 14:57:15,536  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:01:58,243  INFO  Starting the scenario...
+2018-02-01 15:02:07,196  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:02:07,729  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:02:52,124  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:17:45,634  INFO  Starting the scenario...
+2018-02-01 15:17:49,251  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:17:49,323  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:17:50,028  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:25:14,908  INFO  Starting the scenario...
+2018-02-01 15:25:18,241  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:25:18,323  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:25:19,009  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:25:19,149  INFO  Starting the scenario...
+2018-02-01 15:25:22,015  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:25:22,086  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:25:22,747  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:25:22,774  INFO  Starting the scenario...
+2018-02-01 15:25:26,061  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:25:26,138  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:25:26,812  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:33:05,503  INFO  Starting the scenario...
+2018-02-01 15:33:08,990  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:33:09,068  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:33:09,119  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:33:09,121  INFO  Performing drag and drop
+2018-02-01 15:36:17,719  INFO  Starting the scenario...
+2018-02-01 15:36:21,142  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:36:21,207  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:36:21,256  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:36:21,341  INFO  Starting the scenario...
+2018-02-01 15:36:24,322  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:36:24,381  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:36:24,446  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:36:24,478  INFO  Starting the scenario...
+2018-02-01 15:36:27,918  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:36:27,995  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:36:28,067  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:46:43,333  INFO  Starting the scenario...
+2018-02-01 15:46:46,740  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:46:46,811  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:46:46,864  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:46:46,996  INFO  Starting the scenario...
+2018-02-01 15:46:50,000  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:46:50,073  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:46:50,132  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:46:50,214  INFO  Starting the scenario...
+2018-02-01 15:46:53,291  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:46:53,359  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:46:53,419  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:50:27,295  INFO  Starting the scenario...
+2018-02-01 15:50:30,600  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:50:30,676  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:50:30,735  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:50:30,772  INFO  Performing drag and drop
+2018-02-01 15:58:27,965  INFO  Starting the scenario...
+2018-02-01 15:58:31,253  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:58:31,329  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:58:31,388  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:58:31,425  INFO  Performing drag and drop
+2018-02-01 15:59:07,947  INFO  Starting the scenario...
+2018-02-01 15:59:11,256  INFO  List Item sub3 is found, double clicking
+2018-02-01 15:59:11,326  INFO  List Item sub4 is found, double clicking
+2018-02-01 15:59:11,387  INFO  List Item file1 is found, getting clickable point
+2018-02-01 15:59:11,425  INFO  Performing drag and drop
+2018-02-01 16:04:41,499  INFO  Starting the scenario...
+2018-02-01 16:04:45,540  INFO  List Item sub3 is found, double clicking
+2018-02-01 16:04:45,615  INFO  List Item sub4 is found, double clicking
+2018-02-01 16:04:45,675  INFO  List Item file1 is found, getting clickable point
+2018-02-01 16:04:45,711  INFO  Performing drag and drop
+2018-02-01 16:04:52,046  INFO  List Item file1 is found, right clicking
+2018-02-01 16:04:52,077  INFO  Selecting property Cut
+2018-02-01 16:40:49,984  INFO  Starting the scenario...
+2018-02-01 16:40:59,330  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,ControlType=pane
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:40:59,622  INFO  Starting the scenario...
+2018-02-01 16:41:08,583  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,ControlType=pane
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:41:08,709  INFO  Starting the scenario...
+2018-02-01 16:41:18,104  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,ControlType=pane
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:43:24,442  INFO  Starting the scenario...
+2018-02-01 16:43:33,577  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,ControlType=pane,Index=0
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:43:33,739  INFO  Starting the scenario...
+2018-02-01 16:43:43,090  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,ControlType=pane,Index=0
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:43:43,190  INFO  Starting the scenario...
+2018-02-01 16:43:52,532  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,ControlType=pane,Index=0
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:44:33,731  INFO  Starting the scenario...
+2018-02-01 16:44:42,897  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,Index=0
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:44:43,050  INFO  Starting the scenario...
+2018-02-01 16:44:52,069  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,Index=0
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:44:52,171  INFO  Starting the scenario...
+2018-02-01 16:45:01,478  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*,Index=0
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:48:20,496  INFO  Starting the scenario...
+2018-02-01 16:50:09,873  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:53:32,287  INFO  Starting the scenario...
+2018-02-01 16:54:06,218  INFO  Starting the scenario...
+2018-02-01 16:54:39,554  INFO  Starting the scenario...
+2018-02-01 16:55:39,080  INFO  Starting the scenario...
+2018-02-01 16:55:42,329  INFO  
+2018-02-01 16:55:42,330  INFO  
+2018-02-01 16:55:42,330  INFO  
+2018-02-01 16:55:42,331  INFO  
+2018-02-01 16:55:42,331  INFO  c:\>
+2018-02-01 16:55:42,332  INFO  
+2018-02-01 16:55:42,332  INFO  
+2018-02-01 16:55:42,333  INFO  0 k / 0 k in 0 / 2 file(s), 0 / 17 dir(s)
+2018-02-01 16:55:42,334  INFO  c:\*.*
+2018-02-01 16:55:42,335  INFO  [system]  43 278 180 k of 156 830 028 k free
+2018-02-01 16:55:42,336  INFO  
+2018-02-01 16:55:42,336  INFO  
+2018-02-01 16:55:42,337  INFO  0 k / 0 k in 0 / 2 file(s), 0 / 17 dir(s)
+2018-02-01 16:55:42,338  INFO  c:\*.*
+2018-02-01 16:55:42,338  INFO  [system]  43 278 180 k of 156 830 028 k free
+2018-02-01 16:55:48,252  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:55:48,433  INFO  Starting the scenario...
+2018-02-01 16:55:51,500  INFO  
+2018-02-01 16:55:51,500  INFO  
+2018-02-01 16:55:51,501  INFO  
+2018-02-01 16:55:51,502  INFO  
+2018-02-01 16:55:51,502  INFO  c:\>
+2018-02-01 16:55:51,503  INFO  
+2018-02-01 16:55:51,504  INFO  
+2018-02-01 16:55:51,504  INFO  0 k / 0 k in 0 / 2 file(s), 0 / 17 dir(s)
+2018-02-01 16:55:51,505  INFO  c:\*.*
+2018-02-01 16:55:51,506  INFO  [system]  43 278 180 k of 156 830 028 k free
+2018-02-01 16:55:51,507  INFO  
+2018-02-01 16:55:51,507  INFO  
+2018-02-01 16:55:51,508  INFO  0 k / 0 k in 0 / 2 file(s), 0 / 17 dir(s)
+2018-02-01 16:55:51,509  INFO  c:\*.*
+2018-02-01 16:55:51,509  INFO  [system]  43 278 180 k of 156 830 028 k free
+2018-02-01 16:55:57,424  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:55:57,525  INFO  Starting the scenario...
+2018-02-01 16:56:01,008  INFO  
+2018-02-01 16:56:01,009  INFO  
+2018-02-01 16:56:01,009  INFO  
+2018-02-01 16:56:01,010  INFO  
+2018-02-01 16:56:01,010  INFO  c:\>
+2018-02-01 16:56:01,010  INFO  
+2018-02-01 16:56:01,011  INFO  
+2018-02-01 16:56:01,011  INFO  0 k / 0 k in 0 / 2 file(s), 0 / 17 dir(s)
+2018-02-01 16:56:01,012  INFO  c:\*.*
+2018-02-01 16:56:01,013  INFO  [system]  43 278 164 k of 156 830 028 k free
+2018-02-01 16:56:01,013  INFO  
+2018-02-01 16:56:01,014  INFO  
+2018-02-01 16:56:01,015  INFO  0 k / 0 k in 0 / 2 file(s), 0 / 17 dir(s)
+2018-02-01 16:56:01,016  INFO  c:\*.*
+2018-02-01 16:56:01,016  INFO  [system]  43 278 164 k of 156 830 028 k free
+2018-02-01 16:56:06,888  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:58:42,812  INFO  Starting the scenario...
+2018-02-01 16:58:51,926  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:58:52,084  INFO  Starting the scenario...
+2018-02-01 16:59:01,446  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 16:59:01,549  INFO  Starting the scenario...
+2018-02-01 16:59:10,959  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:00:55,761  INFO  Starting the scenario...
+2018-02-01 17:01:06,232  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:01:06,636  INFO  Starting the scenario...
+2018-02-01 17:01:16,344  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:01:16,470  INFO  Starting the scenario...
+2018-02-01 17:01:25,909  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:04:14,483  INFO  Starting the scenario...
+2018-02-01 17:04:26,487  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:04:26,670  INFO  Starting the scenario...
+2018-02-01 17:04:37,645  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:04:37,730  INFO  Starting the scenario...
+2018-02-01 17:04:48,853  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=c:\*.*
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 36
+2018-02-01 17:10:52,195  INFO  Starting the scenario...
+2018-02-01 17:11:02,401  INFO  Starting the scenario...
+2018-02-01 17:11:13,809  INFO  Starting the scenario...
+2018-02-01 17:11:26,385  INFO  Starting the scenario...
+2018-02-01 17:11:33,697  INFO  Entering text into TextBox — path text. Value for enter — D:
+2018-02-01 17:11:33,976  INFO  List Item sub3 is found, double clicking
+2018-02-01 17:11:34,060  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:11:34,127  INFO  List Item file1 is found, getting clickable point
+2018-02-01 17:11:34,168  INFO  Performing drag and drop
+2018-02-01 17:11:40,513  INFO  List Item file1 is found, right clicking
+2018-02-01 17:11:40,553  INFO  Selecting property Cut
+2018-02-01 17:11:45,797  INFO  Starting the scenario...
+2018-02-01 17:11:52,949  INFO  Entering text into TextBox — path text. Value for enter — D:
+2018-02-01 17:11:53,169  INFO  List Item sub3 is found, double clicking
+2018-02-01 17:11:53,270  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:11:53,332  INFO  List Item file1 is found, getting clickable point
+2018-02-01 17:11:53,366  INFO  Performing drag and drop
+2018-02-01 17:11:57,469  INFO  Starting the scenario...
+2018-02-01 17:12:04,904  INFO  Entering text into TextBox — path text. Value for enter — D:
+2018-02-01 17:12:05,121  INFO  List Item sub3 is found, double clicking
+2018-02-01 17:12:05,175  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:12:05,248  INFO  List Item file1 is found, getting clickable point
+2018-02-01 17:12:05,282  INFO  Performing drag and drop
+2018-02-01 17:13:47,484  INFO  Starting the scenario...
+2018-02-01 17:13:54,830  INFO  Entering text into TextBox — path text. Value for enter — D:
+2018-02-01 17:13:57,101  INFO  List Item sub3 is found, double clicking
+2018-02-01 17:13:57,170  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:13:57,227  INFO  List Item file1 is found, getting clickable point
+2018-02-01 17:13:57,266  INFO  Performing drag and drop
+2018-02-01 17:14:03,717  INFO  List Item file1 is found, right clicking
+2018-02-01 17:14:03,750  INFO  Selecting property Cut
+2018-02-01 17:14:09,060  INFO  Starting the scenario...
+2018-02-01 17:17:30,691  INFO  Starting the scenario...
+2018-02-01 17:17:40,462  INFO  List Item sub3 is found, double clicking
+2018-02-01 17:17:40,531  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:17:40,587  INFO  List Item file1 is found, getting clickable point
+2018-02-01 17:17:40,618  INFO  Performing drag and drop
+2018-02-01 17:17:46,979  INFO  List Item file1 is found, right clicking
+2018-02-01 17:17:47,023  INFO  Selecting property Cut
+2018-02-01 17:17:52,191  INFO  Starting the scenario...
+2018-02-01 17:24:33,537  INFO  Starting the scenario...
+2018-02-01 17:24:43,263  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:24:43,341  INFO  Performing drag and drop
+2018-02-01 17:25:18,056  INFO  Starting the scenario...
+2018-02-01 17:25:29,839  INFO  Starting the scenario...
+2018-02-01 17:46:25,177  INFO  Starting the scenario...
+2018-02-01 17:46:36,544  INFO  List Item sub4 is found, double clicking
+2018-02-01 17:46:36,613  INFO  Performing drag and drop

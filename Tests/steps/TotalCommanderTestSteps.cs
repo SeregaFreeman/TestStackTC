@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Configuration;
 using System.Threading;
 using TechTalk.SpecFlow;
@@ -8,6 +9,7 @@ using TestStackFramework.framework;
 using TestStackFramework.utils;
 using Views;
 using System.Windows.Automation;
+using TestStack.White.UIItems.WPFUIItems;
 using TestStack.White.WindowsAPI;
 
 namespace Tests.steps
@@ -15,53 +17,99 @@ namespace Tests.steps
     [Binding]
     public class TotalCommanderTestSteps
     {
-        [Given(@"Application was launched, folders ""(.*)"", ""(.*)"" with files ""(.*)"", ""(.*)""  were created if was needed")]
-        public void CreateFoldersWithFilesAndStartApp(string folder1, string folder2, string filename1, string filename2)
+        [Given(@"Folders ""(.*)"", ""(.*)"" with files ""(.*)"", ""(.*)""  were created if was needed")]
+        public void CreateFoldersWithFiles(string folder1, string folder2, string filename1, string filename2)
         {
-            FileUtil fileUtil = new FileUtil();
-            fileUtil.CreateFolder(folder1);
-            fileUtil.CreateFolder(folder2);
-            fileUtil.CreateFile(folder1, filename1);
-            fileUtil.CreateFile(folder2, filename2);
+            ScenarioContext.Current.Add("folder1", folder1);
+            ScenarioContext.Current.Add("folder2", folder2);
+            ScenarioContext.Current.Add("filename1", filename1);
+            ScenarioContext.Current.Add("filename2", filename2);
+
+            FileUtil.CreateFolder(folder1);
+            FileUtil.CreateFolder(folder2);
+            FileUtil.CreateFile(folder1, filename1);
+            FileUtil.CreateFile(folder2, filename2);
+        }
+
+        [When(@"User opens the app")]
+        public void StartApp()
+        {
             Scope.Application = MyApp.Launch(ConfigurationManager.AppSettings["Path"], ConfigurationManager.AppSettings["EXE"]);
             Scope.DefaultWindow = MyApp.Window;
         }
 
-        [Given(@"User clicks button with proper number to access app")]
+        [Then(@"Trial version window is open")]
+        public void ThenTrialVersionWindowIsOpen()
+        {
+            
+        }
+
+        [When(@"User clicks button with proper number to access app")]
         public void ClickButtonWithProperNumberToAccessApp()
         {
             StartView.ButtonToStartUsingApp(StartView.PanelWelcome.GetText()).Click();
+        }
+
+        [Then(@"Main window is open")]
+        public void ThenMainWindowIsOpen()
+        {
+            
+        }
+
+        [When(@"User opens folder ""(.*)"" in ""(.*)"" panel")]
+        public void WhenUserOpensFolderInPanel(string folder, string panel)
+        {
+            Scope.DefaultWindow = Scope.Application.Application.GetWindow(ConfigurationManager.AppSettings["MainWindowName"]);
+            MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
+            Thread.Sleep(2000);
+            OpenPath(folder);
             Thread.Sleep(2000);
         }
 
-        [When(@"User opens folder ""(.*)"" in left panel, folder ""(.*)"" in right panel and moves ""(.*)"" from left panel to right")]
-        public void WhenUserOpensFolderInLeftPanelFolderInRightPanelAndMovesFromLeftPanelToRight(string firstFolder, string secondFolder, string filename)
+        [Then(@"folder ""(.*)"" is open in ""(.*)"" panel")]
+        public void ThenFolderIsOpenInPanel(string p0, string p1)
         {
-            Scope.DefaultWindow = Scope.Application.Application.GetWindow(ConfigurationManager.AppSettings["MainWindowName"]);
+            
+        }
+
+        public void OpenPath(string folder)
+        {
             Thread.Sleep(2000);
             var textline = Scope.DefaultWindow.Get(SearchCriteria.ByControlType(ControlType.Pane).AndByText("c:\\*.*"));
             textline.Click();
             Thread.Sleep(2000);
-            var textBox = Scope.DefaultWindow.Get(SearchCriteria.ByControlType(ControlType.Edit));
-            textBox.SetValue("D:");
+            var textBox = textline.Get(SearchCriteria.ByControlType(ControlType.Edit));
+            textBox.SetValue(folder);
             textBox.KeyIn(KeyboardInput.SpecialKeys.RETURN);
-            Thread.Sleep(2000);
-            OpenFolder(0, firstFolder);
-            OpenFolder(1, secondFolder);
-            MoveFile(0, filename, 1);
-            Thread.Sleep(2000);
         }
 
-        [When(@"User confirms movement")]
-        public void WhenUserConfirmsMovement()
+        [When(@"User moves ""(.*)"" from ""(.*)"" panel to ""(.*)""")]
+        public void WhenUserMovesFromPanelTo(string filename, string fromPanel, string toPanel)
+        {
+            MoveFile(GetPanelIndex(fromPanel), filename, GetPanelIndex(toPanel));
+        }
+
+        [Then(@"Confirmation window is open")]
+        public void ThenConfirmationWindowIsOpen()
+        {
+            
+        }
+
+        [When(@"User confirms file movement")]
+        public void WhenUserConfirmsFileMovement()
         {
             MoveConfirmationView.ButtonConfirmMovement.Click();
             Thread.Sleep(2000);
-            SelectItemInContextMenu(1, "file1", "Cut");
+            /*SelectItemInContextMenu(1, "file1", "Cut");
             Thread.Sleep(2000);
-            SelectItemInContextMenu(0, "Paste");
+            SelectItemInContextMenu(0, "Paste");*/
         }
 
+        [Then(@"File ""(.*)"" is moved to folder ""(.*)"" on ""(.*)"" panel")]
+        public void ThenFileIsMovedToFolderOnPanel(string p0, string p1, string p2)
+        {
+            
+        }
 
 
         public void OpenFolder(int panelId, string folderName)
@@ -122,6 +170,19 @@ namespace Tests.steps
                           MainView.ListBoxPanel(panel).GetBounds().BottomLeft.Y - 10);
             Mouse.Instance.RightClick();
             Scope.DefaultWindow.Popup.Item(property).Click();
+        }
+
+        public int GetPanelIndex(string panelName)
+        {
+            switch (panelName)
+            {
+                case "left":
+                    return 0;
+                case "right":
+                    return 1;
+                default:
+                    throw new Exception("Incorrect panel name");
+            }
         }
     }
 }

@@ -68,15 +68,32 @@ namespace Tests.Features
 #line 3
 this.ScenarioSetup(scenarioInfo);
 #line 4
- testRunner.Given("Application was launched, folders \"C:\\\\sub3\", \"C:\\\\sub4\" with files \"file1\", \"fil" +
-                    "e2\"  were created if was needed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("Folders \"C:\\\\sub3\", \"C:\\\\sub4\" with files \"file1\", \"file2\"  were created if was n" +
+                    "eeded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 5
-     testRunner.And("User clicks button with proper number to access app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.When("User opens the app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 6
- testRunner.When("User opens folder \"sub3\" in left panel, folder \"sub4\" in right panel and moves \"f" +
-                    "ile1\" from left panel to right", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+   testRunner.Then("Trial version window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 7
-     testRunner.And("User confirms movement", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.When("User clicks button with proper number to access app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 8
+   testRunner.Then("Main window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 9
+ testRunner.When("User opens folder \"C:\\\\sub3\" in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 10
+   testRunner.Then("folder \"C:\\\\sub3\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 11
+ testRunner.When("User opens folder \"C:\\\\sub4\" in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
+   testRunner.Then("folder \"C:\\\\sub4\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 13
+    testRunner.When("User moves \"file1\" from \"left\" panel to \"right\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 14
+   testRunner.Then("Confirmation window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 15
+ testRunner.When("User confirms file movement", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 16
+   testRunner.Then("File \"file\" is moved to folder \"C:\\\\sub4\" on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
