@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Configuration;
+using System.Linq;
 using System.Threading;
 using TechTalk.SpecFlow;
 using TestStack.White.InputDevices;
@@ -11,6 +13,7 @@ using Views;
 using System.Windows.Automation;
 using TestStack.White.UIItems.WPFUIItems;
 using TestStack.White.WindowsAPI;
+using TestStackFramework.framework.elements;
 
 namespace Tests.steps
 {
@@ -41,7 +44,8 @@ namespace Tests.steps
         [Then(@"Trial version window is open")]
         public void ThenTrialVersionWindowIsOpen()
         {
-            
+            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["ModalWindowName"], "Modal window is wrong");
         }
 
         [When(@"User clicks button with proper number to access app")]
@@ -53,7 +57,8 @@ namespace Tests.steps
         [Then(@"Main window is open")]
         public void ThenMainWindowIsOpen()
         {
-            
+            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["MainWindowName"], "Modal window is wrong");
         }
 
         [When(@"User opens folder ""(.*)"" in ""(.*)"" panel")]
@@ -62,7 +67,7 @@ namespace Tests.steps
             Scope.DefaultWindow = Scope.Application.Application.GetWindow(ConfigurationManager.AppSettings["MainWindowName"]);
             MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
             Thread.Sleep(2000);
-            OpenPath(folder);
+            OpenPath(panel, folder);
             Thread.Sleep(2000);
         }
 
@@ -72,15 +77,16 @@ namespace Tests.steps
             
         }
 
-        public void OpenPath(string folder)
+        public void OpenPath(string panel, string folder)
         {
             Thread.Sleep(2000);
-            var textline = Scope.DefaultWindow.Get(SearchCriteria.ByControlType(ControlType.Pane).AndByText("c:\\*.*"));
-            textline.Click();
+            var textlines = MainView.Panels;
+            List<Panel> panels = new List<Panel>();
+            panels.AddRange(textlines.Where(textline => textline.Name.Contains("*.*")));
+            panels[GetPanelIndex(panel)].Click();
             Thread.Sleep(2000);
-            var textBox = textline.Get(SearchCriteria.ByControlType(ControlType.Edit));
-            textBox.SetValue(folder);
-            textBox.KeyIn(KeyboardInput.SpecialKeys.RETURN);
+            MainView.PathTextBox(panels[GetPanelIndex(panel)].RawItem).SetValue(folder);
+            MainView.PathTextBox(panels[GetPanelIndex(panel)].RawItem).KeyIn(KeyboardInput.SpecialKeys.RETURN);
         }
 
         [When(@"User moves ""(.*)"" from ""(.*)"" panel to ""(.*)""")]

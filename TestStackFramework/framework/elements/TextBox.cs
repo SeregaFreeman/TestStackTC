@@ -1,4 +1,5 @@
-﻿using TestStack.White.UIItems.Finders;
+﻿using TestStack.White.UIItems;
+using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems.WindowItems;
 using TestStackFramework.utils;
 
@@ -15,6 +16,13 @@ namespace TestStackFramework.framework.elements
         {
             return new TextBox(Find(searchCriteria, window), itemName);
         }
+
+        public static TextBox Get(SearchCriteria searchCriteria, string itemName, UIItem item)
+        {
+            return new TextBox(Find(searchCriteria, item), itemName);
+        }
+
+
 
         public void BulkText(string text)
         {
