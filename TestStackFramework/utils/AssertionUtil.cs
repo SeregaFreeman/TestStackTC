@@ -17,5 +17,19 @@ namespace TestStackFramework.utils
                 Assert.Fail();
             }
         }
+
+        public static void AssertFalse(bool condition, string message)
+        {
+            try
+            {
+                Assert.False(condition, message);
+                LoggerUtil.Info("Condition is false");
+            }
+            catch (AssertionException ex)
+            {
+                LoggerUtil.Error($"Expected 'false', found {condition}" + ex);
+                Assert.Fail();
+            }
+        }
     }
 }

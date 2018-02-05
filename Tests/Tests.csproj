@@ -109,5 +109,9 @@
       <Name>Views</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\images\find.png" />
+    <Content Include="Resources\images\switchThrough.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

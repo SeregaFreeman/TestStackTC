@@ -12,6 +12,7 @@ using TestStackFramework.utils;
 using Views;
 using System.Windows.Automation;
 using TestStack.White.UIItems.WPFUIItems;
+using TestStack.White.Utility;
 using TestStack.White.WindowsAPI;
 using TestStackFramework.framework.elements;
 
@@ -45,6 +46,7 @@ namespace Tests.steps
         public void ThenTrialVersionWindowIsOpen()
         {
             Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            //TNASTYNAGSCREEN
             AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["ModalWindowName"], "Modal window is wrong");
         }
 
@@ -58,7 +60,7 @@ namespace Tests.steps
         public void ThenMainWindowIsOpen()
         {
             Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
-            AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["MainWindowName"], "Modal window is wrong");
+            AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["MainWindowName"], "Main window is wrong");
         }
 
         [When(@"User opens folder ""(.*)"" in ""(.*)"" panel")]
@@ -98,7 +100,9 @@ namespace Tests.steps
         [Then(@"Confirmation window is open")]
         public void ThenConfirmationWindowIsOpen()
         {
-            
+            //TInpComboDlg
+            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            LoggerUtil.Info(Scope.DefaultWindow.Name);
         }
 
         [When(@"User confirms file movement")]
@@ -106,9 +110,6 @@ namespace Tests.steps
         {
             MoveConfirmationView.ButtonConfirmMovement.Click();
             Thread.Sleep(2000);
-            /*SelectItemInContextMenu(1, "file1", "Cut");
-            Thread.Sleep(2000);
-            SelectItemInContextMenu(0, "Paste");*/
         }
 
         [Then(@"File ""(.*)"" is moved to folder ""(.*)"" on ""(.*)"" panel")]
@@ -116,6 +117,72 @@ namespace Tests.steps
         {
             
         }
+
+        [When(@"User selects ""(.*)"" option from context menu for ""(.*)"" on ""(.*)"" panel")]
+        public void WhenUserSelectsOptionFromContextMenuForOnPanel(string option, string filename, string panel)
+        {
+            SelectItemInContextMenu(GetPanelIndex(panel), filename, option);
+        }
+
+        [When(@"User selects ""(.*)"" option from context menu on ""(.*)"" panel")]
+        public void WhenUserSelectsOptionFromContextMenuForPanel(string option, string panel)
+        {
+            SelectItemInContextMenu(GetPanelIndex(panel), option);
+        }
+
+        [Then(@"Replace or skip files window is open")]
+        public void ThenReplaceOrSkipFilesWindowIsOpen()
+        {
+            Retry.For(() => MyApp.IsWindowOpen("Replace or Skip Files"), TimeSpan.FromSeconds(5));
+        }
+
+        [When(@"User clicks ""(.*)"" button on dialog window")]
+        public void WhenUserClicksButtonOnDialogWindow(string option)
+        {
+            switch (option)
+            {
+                case "Replace":
+                    ReplaceOrSkipFilesView.ButtonReplace.Click();
+                    break;
+                case "Skip":
+                    ReplaceOrSkipFilesView.ButtonSkip.Click();
+                    break;
+            }
+        }
+
+        [Then(@"""(.*)"" is present on ""(.*)"" panel")]
+        public void ThenIsPresentOnPanel(string filename, string panel)
+        {
+            AssertionUtil.AssertTrue(IsFileFound(panel, filename), "File is not present when should be");
+        }
+
+        [Then(@"""(.*)"" is absent on ""(.*)"" panel")]
+        public void ThenIsAbsentOnPanel(string filename, string panel)
+        {
+            AssertionUtil.AssertFalse(IsFileFound(panel, filename), "File is present when should not be");
+        }
+
+        [When(@"User selects ""(.*)"", ""(.*)"", ""(.*)"" from the main app menu")]
+        public void WhenUserSelectsFromTheMainAppMenu(string firstLevel, string secondLevel, string thirdLevel)
+        {
+            MainView.MenuBarApplication.SelectMenu(firstLevel, secondLevel, thirdLevel);
+        }
+
+        [Then(@"Side panel is open")]
+        public void ThenSidePanelIsOpen()
+        {
+            AssertionUtil.AssertTrue(MainView.ListBoxSidePanel.IsVisible(), "Side panel is not visible");
+        }
+
+        [When(@"User clicks on ""(.*)"" menu item")]
+        public void WhenUserClicksOnMenuItem(string itemName)
+        {
+            if (itemName == "Switch through tree panel options")
+            {
+                SikuliUtil.Click(ConfigurationManager.AppSettings["sikuliImagesPath"], "switchThrough.png", 0.8f);
+            }
+        }
+
 
 
         public void OpenFolder(int panelId, string folderName)
@@ -189,6 +256,16 @@ namespace Tests.steps
                 default:
                     throw new Exception("Incorrect panel name");
             }
+        }
+
+        public bool IsFileFound(string panel, string file)
+        {
+            Retry.For(() => MyApp.IsWindowOpen(ConfigurationManager.AppSettings["MainWindowName"]), TimeSpan.FromSeconds(5));
+            Scope.DefaultWindow.Focus();
+            Retry.For(() => Scope.DefaultWindow.IsFocussed, TimeSpan.FromSeconds(5));
+            bool loaded = Retry.For(() => MainView.ListBoxPanel(GetPanelIndex(panel)).GetItems().Exists(item => item.Name.Contains(file)), TimeSpan.FromSeconds(5));
+            LoggerUtil.Log.Info($"Finding file {file} on {panel} panel");
+            return loaded;
         }
     }
 }

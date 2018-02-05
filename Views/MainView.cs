@@ -17,5 +17,6 @@ namespace Views
         public static Button ButtonCloseEditCommentDialog => Button.Get(SearchCriteria.ByText("OK"), "Close 'edit comment' dialog");
         public static List<Panel> Panels => Panel.GetMultiple(SearchCriteria.ByControlType(ControlType.Pane));
         public static TextBox PathTextBox(UIItem item) => TextBox.Get(SearchCriteria.ByControlType(ControlType.Edit), "Edit path", item);
+        public static MenuBar MenuBarApplication => MenuBar.Get(SearchCriteria.ByText("Application"), "Main app menu");
     }
 }

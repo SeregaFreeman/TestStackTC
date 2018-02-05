@@ -112,12 +112,14 @@ namespace TestStackFramework.framework.elements
 
         public void Click()
         {
+            LoggerUtil.Info($"Performing click on {ItemName}");
             _uiItem.Click();
 
         }
 
         public void RaiseClickEvent()
         {
+            LoggerUtil.Info($"Performing raise click event on {ItemName}");
             _uiItem.RaiseClickEvent();
         }
 
@@ -131,6 +133,11 @@ namespace TestStackFramework.framework.elements
         {
             LoggerUtil.Info($"Sending key to — {ItemName}. Key for enter — {key}");
             _uiItem.KeyIn(key);
+        }
+
+        public bool IsVisible()
+        {
+            return _uiItem.Visible;
         }
     }
 }

@@ -22,8 +22,6 @@ namespace TestStackFramework.framework.elements
             return new TextBox(Find(searchCriteria, item), itemName);
         }
 
-
-
         public void BulkText(string text)
         {
             LoggerUtil.Info($"Entering text into TextBox — {ItemName}. Value for enter — {text}");

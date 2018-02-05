@@ -70,30 +70,49 @@ this.ScenarioSetup(scenarioInfo);
 #line 4
  testRunner.Given("Folders \"C:\\\\sub3\", \"C:\\\\sub4\" with files \"file1\", \"file2\"  were created if was n" +
                     "eeded", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 5
- testRunner.When("User opens the app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 6
-   testRunner.Then("Trial version window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.When("User opens the app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 7
-    testRunner.When("User clicks button with proper number to access app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 8
-   testRunner.Then("Main window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+   testRunner.Then("Trial version window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 9
- testRunner.When("User opens folder \"C:\\\\sub3\" in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("User clicks button with proper number to access app", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
-   testRunner.Then("folder \"C:\\\\sub3\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 11
- testRunner.When("User opens folder \"C:\\\\sub4\" in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+   testRunner.Then("Main window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 12
-   testRunner.Then("folder \"C:\\\\sub4\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.When("User opens folder \"C:\\\\sub3\" in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 13
-    testRunner.When("User moves \"file1\" from \"left\" panel to \"right\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 14
-   testRunner.Then("Confirmation window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+   testRunner.Then("folder \"C:\\\\sub3\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 15
- testRunner.When("User confirms file movement", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("User opens folder \"C:\\\\sub4\" in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 16
+   testRunner.Then("folder \"C:\\\\sub4\" is open in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 18
+    testRunner.When("User moves \"file1\" from \"left\" panel to \"right\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 19
+   testRunner.Then("Confirmation window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 21
+ testRunner.When("User confirms file movement", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 22
    testRunner.Then("File \"file\" is moved to folder \"C:\\\\sub4\" on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 24
+ testRunner.When("User selects \"Cut\" option from context menu for \"file1\" on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 25
+   testRunner.And("User selects \"Paste\" option from context menu on \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 26
+   testRunner.Then("Replace or skip files window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 28
+ testRunner.When("User clicks \"Replace\" button on dialog window", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 29
+   testRunner.Then("\"file1\" is absent on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 30
+     testRunner.And("\"file1\" is present on \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 32
+ testRunner.When("User selects \"Show\", \"Separate Tree\", \"1 (One For Both Panels)\" from the main app" +
+                    " menu", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 33
+   testRunner.Then("Side panel is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 35
+ testRunner.When("User clicks on \"Switch through tree panel options\" menu item", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             this.ScenarioCleanup();
         }

@@ -2,6 +2,7 @@
 using System.Linq;
 using TestStack.White;
 using TestStack.White.UIItems.WindowItems;
+using TestStackFramework.utils;
 
 namespace TestStackFramework.framework
 {
@@ -18,6 +19,7 @@ namespace TestStackFramework.framework
 
         public static MyApp Launch(string path, string exe)
         {
+            LoggerUtil.Info($"Starting app {exe} from {path}");
             var app = Application.Launch(Path.Combine(path, exe));
             var window = app.GetWindows().FirstOrDefault();
             return new MyApp(app, window);
@@ -25,7 +27,14 @@ namespace TestStackFramework.framework
 
         public void Kill()
         {
+            LoggerUtil.Info("Killing the app");
             Application.Kill();
+        }
+
+        public static bool IsWindowOpen(string title)
+        {
+            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            return Scope.DefaultWindow.Title == title;
         }
     }
 }

@@ -39,6 +39,9 @@
     <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="SikuliSharp, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SikuliSharp.1.4.0\lib\net45\SikuliSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -74,6 +77,7 @@
     <Compile Include="utils\ImageUtil.cs" />
     <Compile Include="utils\LoggerUtil.cs" />
     <Compile Include="utils\ProcessesUtil.cs" />
+    <Compile Include="utils\SikuliUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

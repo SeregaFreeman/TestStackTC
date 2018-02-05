@@ -1,5 +1,6 @@
 ﻿using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems.WindowItems;
+using TestStackFramework.utils;
 
 namespace TestStackFramework.framework.elements
 {
@@ -17,6 +18,7 @@ namespace TestStackFramework.framework.elements
 
         public void SelectMenu(params string[] path)
         {
+            LoggerUtil.Info($"Selecting {path} in {ItemName}");
             _uiItem.MenuItem(path).Click();
         }
     }
