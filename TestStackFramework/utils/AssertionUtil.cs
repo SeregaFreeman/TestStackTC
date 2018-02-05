@@ -9,7 +9,6 @@ namespace TestStackFramework.utils
             try
             {
                 Assert.True(condition, message);
-                LoggerUtil.Info("Condition is true");
             }
             catch (AssertionException ex)
             {
@@ -23,11 +22,36 @@ namespace TestStackFramework.utils
             try
             {
                 Assert.False(condition, message);
-                LoggerUtil.Info("Condition is false");
             }
             catch (AssertionException ex)
             {
                 LoggerUtil.Error($"Expected 'false', found {condition}" + ex);
+                Assert.Fail();
+            }
+        }
+
+        public static void AssertNotNull(object targetObject, string message)
+        {
+            try
+            {
+                Assert.NotNull(targetObject, message);
+            }
+            catch (AssertionException ex)
+            {
+                LoggerUtil.Error($"Expected {targetObject} to be not null, but get" + ex);
+                Assert.Fail();
+            }
+        }
+
+        public static void AssertEquals(object expected, object actual, string message)
+        {
+            try
+            {
+                Assert.AreEqual(expected, actual, message);
+            }
+            catch (AssertionException ex)
+            {
+                LoggerUtil.Error($"Expected objects to be equal, but get" + ex);
                 Assert.Fail();
             }
         }

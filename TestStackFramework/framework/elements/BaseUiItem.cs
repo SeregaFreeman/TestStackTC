@@ -39,14 +39,12 @@ namespace TestStackFramework.framework.elements
             try
             {
                 element = window.Get<T>(searchCriteria);
-                return element;
             }
             catch (AutomationException ex)
             {
                 LoggerUtil.Info($"Element is not found: {ex}");
             }
 
-            Assert.NotNull(element, "Element is not found");
             return element;
         }
 
@@ -137,7 +135,15 @@ namespace TestStackFramework.framework.elements
 
         public bool IsVisible()
         {
-            return _uiItem.Visible;
+            try
+            {
+                return _uiItem.Visible;
+            }
+            catch (Exception ex)
+            {
+                LoggerUtil.Info(ex.Message);
+                return false;
+            }
         }
     }
 }

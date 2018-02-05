@@ -112,7 +112,15 @@ this.ScenarioSetup(scenarioInfo);
 #line 33
    testRunner.Then("Side panel is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 35
- testRunner.When("User clicks on \"Switch through tree panel options\" menu item", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("User clicks \"2\" times on \"Switch through tree panel options\" icon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 36
+   testRunner.Then("Side panel is not open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 38
+ testRunner.When("User clicks \"1\" times on \"Search\" icon", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 39
+   testRunner.Then("\"General\" tab item is selected", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 40
+     testRunner.And("\"Search in\" field value is \"C:\\\\sub3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

@@ -32,4 +32,9 @@ Scenario: Basic total commander scenario
 	When User selects "Show", "Separate Tree", "1 (One For Both Panels)" from the main app menu
 	  Then Side panel is open
 
-	When User clicks on "Switch through tree panel options" menu item
+	When User clicks "2" times on "Switch through tree panel options" icon
+	  Then Side panel is not open
+
+	When User clicks "1" times on "Search" icon
+	  Then "General" tab item is selected
+	    And "Search in" field value is "C:\\sub3"

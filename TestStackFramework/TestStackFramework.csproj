@@ -61,12 +61,14 @@
   <ItemGroup>
     <Compile Include="framework\elements\BaseUiItem.cs" />
     <Compile Include="framework\elements\Button.cs" />
+    <Compile Include="framework\elements\ComboBox.cs" />
     <Compile Include="framework\elements\Label.cs" />
     <Compile Include="framework\elements\ListBox.cs" />
     <Compile Include="framework\elements\Listitem.cs" />
     <Compile Include="framework\elements\MenuBar.cs" />
     <Compile Include="framework\elements\MenuItem.cs" />
     <Compile Include="framework\elements\Panel.cs" />
+    <Compile Include="framework\elements\Tab.cs" />
     <Compile Include="framework\elements\TextBox.cs" />
     <Compile Include="framework\elements\ToolBar.cs" />
     <Compile Include="framework\MyApp.cs" />

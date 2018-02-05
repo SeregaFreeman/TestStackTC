@@ -174,13 +174,42 @@ namespace Tests.steps
             AssertionUtil.AssertTrue(MainView.ListBoxSidePanel.IsVisible(), "Side panel is not visible");
         }
 
-        [When(@"User clicks on ""(.*)"" menu item")]
-        public void WhenUserClicksOnMenuItem(string itemName)
+        [Then(@"Side panel is not open")]
+        public void ThenSidePanelIsNotOpen()
         {
-            if (itemName == "Switch through tree panel options")
+            AssertionUtil.AssertFalse(MainView.ListBoxSidePanel.IsVisible(), "Side panel is still visible");
+        }
+
+        [When(@"User clicks ""(.*)"" times on ""(.*)"" icon")]
+        public void WhenUserClicksOnIcon(int clicksCount, string itemName)
+        {
+            string image = null;
+            switch (itemName)
             {
-                SikuliUtil.Click(ConfigurationManager.AppSettings["sikuliImagesPath"], "switchThrough.png", 0.8f);
+                case "Switch through tree panel options":
+                    image = "switchThrough.png";
+                    break;
+                case "Search":
+                    image = "find.png";
+                    break;
             }
+
+            for (var i=0; i<clicksCount; i++)
+            {
+                SikuliUtil.Click(ConfigurationManager.AppSettings["sikuliImagesPath"], image, 0.8f);
+            }
+        }
+
+        [Then(@"""(.*)"" tab item is selected")]
+        public void ThenTabItemIsSelected(string p0)
+        {
+            AssertionUtil.AssertEquals(MainView.TabFindFiles.GetSelectedTabName(), p0, "tabs are different");
+        }
+
+        [Then(@"""(.*)"" field value is ""(.*)""")]
+        public void ThenValueIs(string p0, string p1)
+        {
+            //
         }
 
 
