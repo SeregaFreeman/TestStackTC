@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="framework\elements\BaseUiItem.cs" />
     <Compile Include="framework\elements\Button.cs" />
+    <Compile Include="framework\elements\CheckBox.cs" />
     <Compile Include="framework\elements\ComboBox.cs" />
     <Compile Include="framework\elements\Label.cs" />
     <Compile Include="framework\elements\ListBox.cs" />

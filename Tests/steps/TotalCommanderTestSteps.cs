@@ -207,11 +207,46 @@ namespace Tests.steps
         }
 
         [Then(@"""(.*)"" field value is ""(.*)""")]
-        public void ThenValueIs(string p0, string p1)
+        public void ThenValueIs(string field, string value)
         {
-            //
+            switch (field)
+            {
+                case "Search in":
+                    AssertionUtil.AssertEquals(value, MainView.TextBoxSearchIn.Name, "Search in field value is incorrect");
+                    break;
+            }
         }
 
+        [When(@"User sets value ""(.*)"" to ""(.*)"" field")]
+        public void WhenUserSetsValueToField(string value, string field)
+        {
+            switch (field)
+            {
+                case "Search for":
+                    MainView.TextBoxSearchFor.BulkText(value);
+                    break;
+            }
+        }
+
+        [When(@"User checks ReGex checkbox")]
+        public void WhenUserChecksReGexCheckbox()
+        {
+            MainView.CheckBoxRegEx.Click();
+        }
+
+        [When(@"User clicks Start search button")]
+        public void WhenUserClicksStartSearchButton()
+        {
+            MainView.ButtonStartsearch.Click();
+        }
+
+        [Then(@"Only ""(.*)"" is found")]
+        public void ThenOnlyIsFound(string filename)
+        {
+            AssertionUtil.AssertEquals(MainView.ListBoxSearchResults.GetItems().Count, 2, "Results list size is incorrect");
+            AssertionUtil.AssertNotNull(MainView.ListItemSearchResultsCount(1, 0), "Count is incorrect");
+            AssertionUtil.AssertNotNull(MainView.ListItemSearchResult(filename), "Found item is incorrect");
+        }
 
 
         public void OpenFolder(int panelId, string folderName)

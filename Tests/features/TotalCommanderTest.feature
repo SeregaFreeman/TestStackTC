@@ -9,17 +9,17 @@ Scenario: Basic total commander scenario
     When User clicks button with proper number to access app
 	  Then Main window is open
 
-	When User opens folder "C:\\sub3" in "left" panel
-	  Then folder "C:\\sub3" is open in "left" panel
+	When User opens folder "C:\sub3" in "left" panel
+	  Then folder "C:\sub3" is open in "left" panel
 
-	When User opens folder "C:\\sub4" in "right" panel
-	  Then folder "C:\\sub4" is open in "right" panel
+	When User opens folder "C:\sub4" in "right" panel
+	  Then folder "C:\sub4" is open in "right" panel
 
     When User moves "file1" from "left" panel to "right"
 	  Then Confirmation window is open
 
 	When User confirms file movement
-	  Then File "file" is moved to folder "C:\\sub4" on "right" panel
+	  Then File "file" is moved to folder "C:\sub4" on "right" panel
 
 	When User selects "Cut" option from context menu for "file1" on "right" panel
 	  And User selects "Paste" option from context menu on "left" panel
@@ -37,4 +37,9 @@ Scenario: Basic total commander scenario
 
 	When User clicks "1" times on "Search" icon
 	  Then "General" tab item is selected
-	    And "Search in" field value is "C:\\sub3"
+	    And "Search in" field value is "C:\sub3"
+
+	When User sets value "file1" to "Search for" field
+	  And User checks ReGex checkbox
+	    And User clicks Start search button
+	  Then Only "C:\sub3\file1" is found

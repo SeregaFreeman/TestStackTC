@@ -79,13 +79,13 @@ this.ScenarioSetup(scenarioInfo);
 #line 10
    testRunner.Then("Main window is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 12
- testRunner.When("User opens folder \"C:\\\\sub3\" in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("User opens folder \"C:\\sub3\" in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 13
-   testRunner.Then("folder \"C:\\\\sub3\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+   testRunner.Then("folder \"C:\\sub3\" is open in \"left\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 15
- testRunner.When("User opens folder \"C:\\\\sub4\" in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("User opens folder \"C:\\sub4\" in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 16
-   testRunner.Then("folder \"C:\\\\sub4\" is open in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+   testRunner.Then("folder \"C:\\sub4\" is open in \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 18
     testRunner.When("User moves \"file1\" from \"left\" panel to \"right\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 19
@@ -93,7 +93,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 21
  testRunner.When("User confirms file movement", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 22
-   testRunner.Then("File \"file\" is moved to folder \"C:\\\\sub4\" on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+   testRunner.Then("File \"file\" is moved to folder \"C:\\sub4\" on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 24
  testRunner.When("User selects \"Cut\" option from context menu for \"file1\" on \"right\" panel", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 25
@@ -120,7 +120,15 @@ this.ScenarioSetup(scenarioInfo);
 #line 39
    testRunner.Then("\"General\" tab item is selected", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line 40
-     testRunner.And("\"Search in\" field value is \"C:\\\\sub3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+     testRunner.And("\"Search in\" field value is \"C:\\sub3\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 42
+ testRunner.When("User sets value \"file1\" to \"Search for\" field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 43
+   testRunner.And("User checks ReGex checkbox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 44
+     testRunner.And("User clicks Start search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 45
+   testRunner.Then("Only \"C:\\sub3\\file1\" is found", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
