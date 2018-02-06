@@ -1,7 +1,7 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using System.Windows.Automation;
 using TestStack.White;
-using NUnit.Framework;
 using TestStack.White.UIItems;
 using TestStack.White.UIItems.Actions;
 using TestStack.White.UIItems.Finders;
@@ -14,17 +14,17 @@ namespace TestStackFramework.framework.elements
 {
     public class BaseUiItem<T> where T : UIItem
     {
-        private string _itemName;
-        protected T _uiItem;
+        protected T UiItem;
 
-        public string Name => _uiItem.Name;
-        public string ItemName => _itemName;
-        public UIItem RawItem => _uiItem;
+        public string Name => UiItem.Name;
+        public string ItemName { get; }
+
+        public UIItem RawItem => UiItem;
 
         public BaseUiItem(T uiItem, string name)
         {
-            _uiItem = uiItem;
-            _itemName = name;
+            UiItem = uiItem;
+            ItemName = name;
         }
 
         public static T Find(SearchCriteria searchCriteria, Window window = null)
@@ -54,14 +54,12 @@ namespace TestStackFramework.framework.elements
             try
             {
                 element = item.Get<T>(searchCriteria);
-                return element;
             }
             catch (AutomationException ex)
             {
                 LoggerUtil.Info($"Element is not found: {ex}");
             }
-
-            Assert.NotNull(element, "Element is not found");
+            
             return element;
         }
 
@@ -111,33 +109,32 @@ namespace TestStackFramework.framework.elements
         public void Click()
         {
             LoggerUtil.Info($"Performing click on {ItemName}");
-            _uiItem.Click();
-
+            UiItem.Click();
         }
 
         public void RaiseClickEvent()
         {
             LoggerUtil.Info($"Performing raise click event on {ItemName}");
-            _uiItem.RaiseClickEvent();
+            UiItem.RaiseClickEvent();
         }
 
         public void SetValue(string value)
         {
-            LoggerUtil.Info($"Setting value into TextBox — {ItemName}. Value for enter — {value}");
-            _uiItem.SetValue(value);
+            LoggerUtil.Info($"Setting value into — {ItemName}. Value for enter — {value}");
+            UiItem.SetValue(value);
         }
 
         public void KeyIn(KeyboardInput.SpecialKeys key)
         {
             LoggerUtil.Info($"Sending key to — {ItemName}. Key for enter — {key}");
-            _uiItem.KeyIn(key);
+            UiItem.KeyIn(key);
         }
 
         public bool IsVisible()
         {
             try
             {
-                return _uiItem.Visible;
+                return UiItem.Visible;
             }
             catch (Exception ex)
             {

@@ -10,12 +10,11 @@ namespace TestStackFramework.framework.elements
     {
         protected Panel(TestStack.White.UIItems.Panel uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static Panel Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new Panel(Find(searchCriteria, window), itemName);
+            return new Panel(Find(searchCriteria, window), $"Panel: {itemName}");
         }
 
         public static List<Panel> GetMultiple(SearchCriteria searchCriteria, Window window = null)
@@ -26,7 +25,7 @@ namespace TestStackFramework.framework.elements
             {
                 try
                 {
-                    panels.Add(new Panel((TestStack.White.UIItems.Panel) panel, "name"));
+                    panels.Add(new Panel((TestStack.White.UIItems.Panel)panel, "New panel..."));
                 }
                 catch (InvalidCastException ex)
                 {
@@ -38,8 +37,7 @@ namespace TestStackFramework.framework.elements
 
         public string GetText()
         {
-            return _uiItem.Text;
+            return UiItem.Text;
         }
-
     }
 }

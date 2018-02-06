@@ -7,12 +7,11 @@ namespace TestStackFramework.framework.elements
     {
         protected CheckBox(TestStack.White.UIItems.CheckBox uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static CheckBox Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new CheckBox(Find(searchCriteria, window), itemName);
+            return new CheckBox(Find(searchCriteria, window), $"CheckBox: {itemName}");
         }
     }
 }

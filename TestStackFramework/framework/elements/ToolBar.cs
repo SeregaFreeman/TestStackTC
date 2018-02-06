@@ -8,12 +8,11 @@ namespace TestStackFramework.framework.elements
     {
         protected ToolBar(ToolStrip uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static ToolBar Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new ToolBar(Find(searchCriteria, window), itemName);
+            return new ToolBar(Find(searchCriteria, window), $"ToolBar: {itemName}");
         }
     }
 }

@@ -8,24 +8,23 @@ namespace TestStackFramework.framework.elements
     {
         protected Tab(TestStack.White.UIItems.TabItems.Tab uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static Tab Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new Tab(Find(searchCriteria, window), itemName);
+            return new Tab(Find(searchCriteria, window), $"Tab: {itemName}");
         }
 
         public void SelectTabItem(string itemName)
         {
-            LoggerUtil.Info($"Selecting {itemName} from {_uiItem.Name} tab");
-            _uiItem.SelectTabPage(itemName);
+            LoggerUtil.Info($"Selecting {itemName} from {UiItem.Name} tab");
+            UiItem.SelectTabPage(itemName);
         }
 
         public string GetSelectedTabName()
         {
-            LoggerUtil.Info($"Getting selected tab name from {_uiItem.Name} tab");
-            return _uiItem.SelectedTab.Name;
+            LoggerUtil.Info($"Getting selected tab name from {UiItem.Name} tab");
+            return UiItem.SelectedTab.Name;
         }
     }
 }

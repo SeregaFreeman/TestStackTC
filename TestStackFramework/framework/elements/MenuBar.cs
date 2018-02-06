@@ -1,4 +1,6 @@
-﻿using TestStack.White.UIItems.Finders;
+﻿using System;
+using System.Linq;
+using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems.WindowItems;
 using TestStackFramework.utils;
 
@@ -8,18 +10,22 @@ namespace TestStackFramework.framework.elements
     {
         protected MenuBar(TestStack.White.UIItems.WindowStripControls.MenuBar uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static MenuBar Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new MenuBar(Find(searchCriteria, window), itemName);
+            return new MenuBar(Find(searchCriteria, window), $"MenuBar: {itemName}");
         }
 
         public void SelectMenu(params string[] path)
         {
-            LoggerUtil.Info($"Selecting {path} in {ItemName}");
-            _uiItem.MenuItem(path).Click();
+            string pathForLog = "";
+            foreach (var pathitem in path)
+            {
+                pathForLog = String.Concat(pathForLog, $"{pathitem} => ");
+            }
+            LoggerUtil.Info($"Selecting {pathForLog} in {ItemName}");
+            UiItem.MenuItem(path).Click();
         }
     }
 }

@@ -7,13 +7,11 @@ namespace TestStackFramework.framework.elements
     {
         protected ComboBox(TestStack.White.UIItems.ListBoxItems.ComboBox uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static ComboBox Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new ComboBox(Find(searchCriteria, window), itemName);
+            return new ComboBox(Find(searchCriteria, window), $"ComboBox: {itemName}");
         }
-
     }
 }

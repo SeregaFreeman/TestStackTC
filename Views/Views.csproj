@@ -48,6 +48,7 @@
     <Reference Include="UIAutomationTypes" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindFilesView.cs" />
     <Compile Include="MainView.cs" />
     <Compile Include="MoveConfirmationView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

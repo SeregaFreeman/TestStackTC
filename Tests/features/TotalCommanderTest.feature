@@ -19,7 +19,8 @@ Scenario: Basic total commander scenario
 	  Then Confirmation window is open
 
 	When User confirms file movement
-	  Then File "file" is moved to folder "C:\sub4" on "right" panel
+	  Then "file1" is present on "right" panel
+	    And "file1" is present on "left" panel
 
 	When User selects "Cut" option from context menu for "file1" on "right" panel
 	  And User selects "Paste" option from context menu on "left" panel
@@ -29,13 +30,14 @@ Scenario: Basic total commander scenario
 	  Then "file1" is absent on "right" panel
 	    And "file1" is present on "left" panel
 
-	When User selects "Show", "Separate Tree", "1 (One For Both Panels)" from the main app menu
+	When User selects "Show" => "Separate Tree" => "1 (One For Both Panels)" from the main app menu
 	  Then Side panel is open
 
 	When User clicks "2" times on "Switch through tree panel options" icon
 	  Then Side panel is not open
 
-	When User clicks "1" times on "Search" icon
+	When User makes "left" panel active
+	  And User clicks "1" times on "Search" icon
 	  Then "General" tab item is selected
 	    And "Search in" field value is "C:\sub3"
 
@@ -43,3 +45,16 @@ Scenario: Basic total commander scenario
 	  And User checks ReGex checkbox
 	    And User clicks Start search button
 	  Then Only "C:\sub3\file1" is found
+
+	When User closes search window
+	   Then Search window is closed
+
+	When User unselects all files on "left" panel
+	  And User selects "Files", "Edit Comment..." from the main app menu
+	  Then Warning window is open
+
+	When User closes warning window
+	  Then Warning window is closed
+
+    When User selects "Files", "Quit" from the main app menu
+	  Then App is closed

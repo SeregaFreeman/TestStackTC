@@ -7,12 +7,11 @@ namespace TestStackFramework.framework.elements
     {
         protected Label(TestStack.White.UIItems.Label uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static Label Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new Label(Find(searchCriteria, window), itemName);
+            return new Label(Find(searchCriteria, window), $"Label: {itemName}");
         }
     }
 }

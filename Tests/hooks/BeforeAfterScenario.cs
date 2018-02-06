@@ -1,6 +1,7 @@
-﻿using System.Configuration;
-using TestStackFramework.framework;
+﻿using System;
+using System.Configuration;
 using TechTalk.SpecFlow;
+using TestStackFramework.framework;
 using TestStackFramework.utils;
 
 namespace Tests.hooks
@@ -22,6 +23,7 @@ namespace Tests.hooks
             FileUtil.DeleteFile((string)ScenarioContext.Current["folder1"], (string)ScenarioContext.Current["filename1"]);
             FileUtil.DeleteFile((string)ScenarioContext.Current["folder2"], (string)ScenarioContext.Current["filename2"]);
             Scope.Application.Kill();
+            LoggerUtil.Info($"Scenario is finished. {Environment.NewLine}");
         }
     }
 }

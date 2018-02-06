@@ -9,22 +9,21 @@ namespace TestStackFramework.framework.elements
     {
         protected ListBox(TestStack.White.UIItems.ListBoxItems.ListBox uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static ListBox Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new ListBox(Find(searchCriteria, window), itemName);
+            return new ListBox(Find(searchCriteria, window), $"ListBox: {itemName}");
         }
 
         public ListItems GetItems()
         {
-            return _uiItem.Items;
+            return UiItem.Items;
         }
 
         public Rect GetBounds()
         {
-            return _uiItem.Bounds;
+            return UiItem.Bounds;
         }
     }
 }

@@ -9,23 +9,22 @@ namespace TestStackFramework.framework.elements
     {
         protected TextBox(TestStack.White.UIItems.TextBox uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static TextBox Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new TextBox(Find(searchCriteria, window), itemName);
+            return new TextBox(Find(searchCriteria, window), $"TextBox: {itemName}");
         }
 
         public static TextBox Get(SearchCriteria searchCriteria, string itemName, UIItem item)
         {
-            return new TextBox(Find(searchCriteria, item), itemName);
+            return new TextBox(Find(searchCriteria, item), $"TextBox: {itemName}");
         }
 
         public void BulkText(string text)
         {
             LoggerUtil.Info($"Entering text into TextBox — {ItemName}. Value for enter — {text}");
-            _uiItem.BulkText = text;
+            UiItem.BulkText = text;
         }
     }
 }

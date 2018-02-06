@@ -7,12 +7,11 @@ namespace TestStackFramework.framework.elements
     {
         protected ListItem(TestStack.White.UIItems.ListBoxItems.ListItem uiItem, string itemName) : base(uiItem, itemName)
         {
-
         }
 
         public static ListItem Get(SearchCriteria searchCriteria, string itemName, Window window = null)
         {
-            return new ListItem(Find(searchCriteria, window), itemName);
+            return new ListItem(Find(searchCriteria, window), $"ListItem: {itemName}");
         }
     }
 }

@@ -8,7 +8,7 @@ namespace Views
 {
     public class MoveConfirmationView
     {
-        public static Button ButtonConfirmMovement = Button.Get(SearchCriteria.ByControlType(ControlType.Button).AndByText("OK"), "Confirm",
+        public static Button ButtonConfirmMovement = Button.Get(SearchCriteria.ByControlType(ControlType.Button).AndByText("OK"), "Confirm movement",
             Scope.DefaultWindow.ModalWindow(ConfigurationManager.AppSettings["ModalWindowName"]));
     }
 }

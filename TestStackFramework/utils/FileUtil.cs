@@ -32,7 +32,6 @@ namespace TestStackFramework.utils
 
         public static void CleanDirectory(string path)
         {
-
         }
     }
 }

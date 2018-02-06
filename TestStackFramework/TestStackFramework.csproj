@@ -79,6 +79,7 @@
     <Compile Include="utils\FileUtil.cs" />
     <Compile Include="utils\ImageUtil.cs" />
     <Compile Include="utils\LoggerUtil.cs" />
+    <Compile Include="utils\MouseInteractionUtil.cs" />
     <Compile Include="utils\ProcessesUtil.cs" />
     <Compile Include="utils\SikuliUtil.cs" />
   </ItemGroup>
