@@ -14,7 +14,7 @@ namespace TestStackFramework.utils
             retryFor = retryFor ?? RetryFor;
             retryInterval = retryInterval ?? RetryInterval;
 
-            return Retry.For(getMethod, g => !g, (TimeSpan) retryFor, retryInterval);
+            return Retry.For(getMethod, g => !g, (TimeSpan)retryFor, retryInterval);
         }
     }
 }

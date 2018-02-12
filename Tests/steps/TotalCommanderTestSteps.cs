@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Configuration;
 using System.Threading;
 using TechTalk.SpecFlow;
 using Tests.businessLogic;
-using TestStack.White.Utility;
 using TestStackFramework.framework;
 using TestStackFramework.utils;
 using Views;
