@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading;
 using System.Windows;
 using TechTalk.SpecFlow;
-using TestStack.White.InputDevices;
 using TestStack.White.Utility;
 using TestStack.White.WindowsAPI;
 using TestStackFramework.framework;
@@ -22,7 +21,7 @@ namespace Tests.steps
         public void CreateFolders(Table table)
         {
             ScenarioContext.Current.Add("folders count", table.Rows.Count);
-            for (var i=0; i<table.Rows.Count; i++)
+            for (var i = 0; i < table.Rows.Count; i++)
             {
                 FileUtil.CreateDirectory(table.Rows[i]["Folder path"]);
                 ScenarioContext.Current.Add($"folder_{i}", table.Rows[i]["Folder path"]);
@@ -54,9 +53,11 @@ namespace Tests.steps
                 case "Main":
                     window = ConfigurationManager.AppSettings["MainWindowName"];
                     break;
+
                 case "Trial version welcome":
                     window = ConfigurationManager.AppSettings["ModalWindowName"];
                     break;
+
                 default:
                     window = windowName;
                     break;
@@ -116,12 +117,9 @@ namespace Tests.steps
             Scope.DefaultWindow = Scope.Application.Application.GetWindow(ConfigurationManager.AppSettings["MainWindowName"]);
             foreach (var row in table.Rows)
             {
-                var folderPath = row["Folder path"];
-                var panel = row["Panel"];
-
-                MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
+                MainView.ListBoxPanel(GetPanelIndex(row["Panel"])).Click();
                 Thread.Sleep(2000);
-                OpenPath(panel, folderPath);
+                OpenPath(row["Panel"], row["Folder path"]);
             }
         }
 
@@ -238,7 +236,7 @@ namespace Tests.steps
         [Then(@"""(.*)"" tab item is selected")]
         public void AssertTabItemIsSelected(string tabItem)
         {
-            AssertionUtil.AssertEquals(FindFilesView.TabFindFiles.SelectedTab.Name, tabItem, "tabs are different");
+            AssertionUtil.AssertEquals(FindFilesView.TabFindFiles.SelectedTab.Name, tabItem, "Incorrect tab is selected");
         }
 
         [Then(@"""(.*)"" field value is ""(.*)""")]
@@ -349,23 +347,18 @@ namespace Tests.steps
             foreach (var listBoxItem in MainView.ListBoxPanel(fromPanel).Items)
             {
                 if (!listBoxItem.Name.Contains(itemName)) continue;
-                LoggerUtil.Info($"List Item {itemName} is found, right clicking");
-                Mouse.Instance.Location = new Point(listBoxItem.Bounds.X, listBoxItem.Bounds.Y);
-                MouseInteractionUtil.RightClickWithDelay();
-                LoggerUtil.Info($"Selecting option {option}");
-                Scope.DefaultWindow.Popup.Item(option).Click();
+                LoggerUtil.Info($"List Item {itemName} is found");
+                MouseInteractionUtil.SelectOptionInContextMenu(Scope.DefaultWindow,
+                    new Point(listBoxItem.Bounds.X, listBoxItem.Bounds.Y), option);
                 break;
             }
         }
 
         public void SelectItemInContextMenu(int panel, string option)
         {
-            LoggerUtil.Info($"Selecting option {option} in context menu");
-            Mouse.Instance.Location =
-                new Point(MainView.ListBoxPanel(panel).Bounds.BottomLeft.X + 20,
-                          MainView.ListBoxPanel(panel).Bounds.BottomLeft.Y - 10);
-            MouseInteractionUtil.RightClickWithDelay();
-            Scope.DefaultWindow.Popup.Item(option).Click();
+            MouseInteractionUtil.SelectOptionInContextMenu(Scope.DefaultWindow,
+                new Point(MainView.ListBoxPanel(panel).Bounds.BottomLeft.X + 10,
+                    MainView.ListBoxPanel(panel).Bounds.BottomLeft.Y - 10), option);
         }
 
         public void SelectItemOnPanel(string itemName, string panel)

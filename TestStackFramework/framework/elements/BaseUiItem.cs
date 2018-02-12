@@ -59,7 +59,7 @@ namespace TestStackFramework.framework.elements
             {
                 LoggerUtil.Info($"Element is not found: {ex}");
             }
-            
+
             return element;
         }
 

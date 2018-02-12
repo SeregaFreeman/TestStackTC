@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using System.Windows;
 using TestStack.White.InputDevices;
+using TestStack.White.UIItems.WindowItems;
 
 namespace TestStackFramework.utils
 {
@@ -41,6 +42,14 @@ namespace TestStackFramework.utils
             RightDown();
             Thread.Sleep(delay);
             RightUp();
+        }
+
+        public static void SelectOptionInContextMenu(Window window, Point point, string option)
+        {
+            LoggerUtil.Info($"Selecting option {option} in context menu");
+            Mouse.Instance.Location = point;
+            RightClickWithDelay();
+            window.Popup.Item(option).Click();
         }
     }
 }

@@ -20,13 +20,13 @@ namespace Tests.hooks
         [AfterScenario]
         public void CloseApp()
         {
-            var foldersCount = (int) ScenarioContext.Current["folders count"];
+            var foldersCount = (int)ScenarioContext.Current["folders count"];
             LoggerUtil.Info($"Deleting {foldersCount} folders...");
             for (var i = 0; i < foldersCount; i++)
             {
                 FileUtil.DeleteDirectory((string)ScenarioContext.Current[$"folder_{i}"], true);
             }
-            
+
             Scope.Application.Kill();
             LoggerUtil.Info($"Scenario is finished. {Environment.NewLine}");
         }

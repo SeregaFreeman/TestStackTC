@@ -30,7 +30,7 @@ namespace TestStackFramework.utils
             }
         }
 
-        public static void DeleteDirectory(string path, bool recursive=false)
+        public static void DeleteDirectory(string path, bool recursive = false)
         {
             if (Directory.Exists(path))
             {

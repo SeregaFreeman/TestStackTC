@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems.WindowItems;
 using TestStackFramework.utils;
