@@ -18,18 +18,24 @@ namespace Tests.steps
     [Binding]
     public class TotalCommanderTestSteps
     {
-        [Given(@"Folders ""(.*)"", ""(.*)"" with files ""(.*)"", ""(.*)""  were created if was needed")]
-        public void CreateFoldersWithFiles(string folder1, string folder2, string filename1, string filename2)
+        [Given(@"The following folders were created if were absent:")]
+        public void CreateFolders(Table table)
         {
-            FileUtil.CreateFolder(folder1);
-            FileUtil.CreateFolder(folder2);
-            FileUtil.CreateFile(folder1, filename1);
-            FileUtil.CreateFile(folder2, filename2);
+            ScenarioContext.Current.Add("folders count", table.Rows.Count);
+            for (var i=0; i<table.Rows.Count; i++)
+            {
+                FileUtil.CreateDirectory(table.Rows[i]["Folder path"]);
+                ScenarioContext.Current.Add($"folder_{i}", table.Rows[i]["Folder path"]);
+            }
+        }
 
-            ScenarioContext.Current.Add("folder1", folder1);
-            ScenarioContext.Current.Add("folder2", folder2);
-            ScenarioContext.Current.Add("filename1", filename1);
-            ScenarioContext.Current.Add("filename2", filename2);
+        [Given(@"The following files were created in corresponding folders:")]
+        public void CreateFiles(Table table)
+        {
+            foreach (var row in table.Rows)
+            {
+                FileUtil.CreateFile(row["Folder path"], row["File name"]);
+            }
         }
 
         [When(@"User opens the app")]
@@ -39,11 +45,63 @@ namespace Tests.steps
             Scope.DefaultWindow = MyApp.Window;
         }
 
-        [Then(@"Trial version window is open")]
-        public void AssertTrialVersionWindowIsOpen()
+        [Then(@"""(.*)"" window is opened")]
+        public void AssertTrialVersionWindowIsOpen(string windowName)
         {
-            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
-            AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["ModalWindowName"], "Modal window is wrong");
+            string window;
+            switch (windowName)
+            {
+                case "Main":
+                    window = ConfigurationManager.AppSettings["MainWindowName"];
+                    break;
+                case "Trial version welcome":
+                    window = ConfigurationManager.AppSettings["ModalWindowName"];
+                    break;
+                default:
+                    window = windowName;
+                    break;
+            }
+            var isWindowOpen = Retry.For(() => IsDefaultWindowOpen(window), TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
+            AssertionUtil.AssertTrue(isWindowOpen, $"{windowName} is not open");
+        }
+
+        [Then(@"Confirmation window is active")]
+        public void ThenConfirmationWindowIsOpen()
+        {
+            AssertionUtil.AssertTrue(IsDefaultWindowCurrentlyActive(ConfigurationManager.AppSettings["ModalWindowName"]), "Modal window is not active");
+        }
+
+        [When(@"User closes search window")]
+        public void CloseSearchWindow()
+        {
+            FindFilesView.ButtonCloseWindow.Click();
+        }
+
+        [Then(@"Search window is closed")]
+        public void AssertSearchWindowIsClosed()
+        {
+            AssertionUtil.AssertTrue(FindFilesView.FindFilesWindow.IsClosed, "Search window is not closed");
+        }
+
+        [Then(@"Warning window is active")]
+        public void AssertWarningWindowIsOpen()
+        {
+            AssertionUtil.AssertTrue(IsDefaultWindowCurrentlyActive(ConfigurationManager.AppSettings["ModalWindowName"]), "Modal window is not active");
+            AssertionUtil.AssertNotNull(MainView.LabelNoFilesSelected(
+                    Scope.DefaultWindow.ModalWindow(ConfigurationManager.AppSettings["ModalWindowName"])), "No label found");
+        }
+
+        [Then(@"Warning window is closed")]
+        public void AssertWarningWindowIsClosed()
+        {
+            List<string> titles = new List<string>();
+            foreach (var modal in Scope.DefaultWindow.ModalWindows())
+            {
+                titles.Add(modal.Title);
+            }
+
+            AssertionUtil.AssertFalse(titles.Contains(ConfigurationManager.AppSettings["ModalWindowName"]),
+                "Modal window is found when should not");
         }
 
         [When(@"User clicks button with proper number to access app")]
@@ -52,41 +110,39 @@ namespace Tests.steps
             StartView.ButtonToStartUsingApp(StartView.PanelWelcome.GetText()).Click();
         }
 
-        [Then(@"Main window is open")]
-        public void AssertMainWindowIsOpen()
-        {
-            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
-            AssertionUtil.AssertTrue(Scope.DefaultWindow.Title == ConfigurationManager.AppSettings["MainWindowName"], "Main window is wrong");
-        }
-
-        [When(@"User opens folder ""(.*)"" in ""(.*)"" panel")]
-        public void OpenFolderInPanelByPath(string path, string panel)
+        [When(@"User opens following folders on corresponding panels:")]
+        public void OpenFolderInPanelByPath(Table table)
         {
             Scope.DefaultWindow = Scope.Application.Application.GetWindow(ConfigurationManager.AppSettings["MainWindowName"]);
-            MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
-            Thread.Sleep(2000);
-            OpenPath(panel, path);
+            foreach (var row in table.Rows)
+            {
+                var folderPath = row["Folder path"];
+                var panel = row["Panel"];
+
+                MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
+                Thread.Sleep(2000);
+                OpenPath(panel, folderPath);
+            }
         }
 
-        [Then(@"folder ""(.*)"" is open in ""(.*)"" panel")]
-        public void AssertFolderIsOpenInPanel(string folder, string panel)
+        [Then(@"Following folders are open on corresponding panels:")]
+        public void AssertFolderIsOpenInPanel(Table table)
         {
-            MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
-            AssertionUtil.AssertNotNull(MainView.PanelCurrentDirectory(folder), "Current panel directory is incorrect");
+            Scope.DefaultWindow = Scope.Application.Application.GetWindow(ConfigurationManager.AppSettings["MainWindowName"]);
+            foreach (var row in table.Rows)
+            {
+                var folderPath = row["Folder path"];
+                var panel = row["Panel"];
+
+                MainView.ListBoxPanel(GetPanelIndex(panel)).Click();
+                AssertionUtil.AssertNotNull(MainView.PanelCurrentDirectory(folderPath), "Current panel directory is incorrect");
+            }
         }
 
-        [When(@"User moves ""(.*)"" from ""(.*)"" panel to ""(.*)""")]
+        [When(@"User moves ""(.*)"" from ""(.*)"" panel to ""(.*)"" using drag and drop")]
         public void MoveFileFromOnePanelToAnother(string filename, string fromPanel, string toPanel)
         {
             MoveFile(GetPanelIndex(fromPanel), filename, GetPanelIndex(toPanel));
-        }
-
-        [Then(@"Confirmation window is open")]
-        public void ThenConfirmationWindowIsOpen()
-        {
-            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
-            AssertionUtil.AssertTrue(Scope.DefaultWindow.ModalWindow(ConfigurationManager.AppSettings["ModalWindowName"]).IsCurrentlyActive, 
-                "Modal window is not active");
         }
 
         [When(@"User confirms file movement")]
@@ -105,12 +161,6 @@ namespace Tests.steps
         public void SelectOptionFromContextMenuOnPanel(string option, string panel)
         {
             SelectItemInContextMenu(GetPanelIndex(panel), option);
-        }
-
-        [Then(@"Replace or skip files window is open")]
-        public void ReplaceOrSkipFilesWindowIsOpen()
-        {
-            Retry.For(() => MyApp.IsWindowOpen("Replace or Skip Files"), TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
         }
 
         [When(@"User clicks ""(.*)"" button on dialog window")]
@@ -140,25 +190,19 @@ namespace Tests.steps
             AssertionUtil.AssertFalse(IsFileFound(panel, filename), "File is present when should not be");
         }
 
-        [When(@"User selects ""(.*)"" => ""(.*)"" => ""(.*)"" from the main app menu")]
-        public void SelectItemFromTheMainAppMenu(string firstLevel, string secondLevel, string thirdLevel)
+        [When(@"User selects ""(.*)"" from the main app menu")]
+        public void SelectItemFromTheMainAppMenu(string path)
         {
-            MainView.MenuBarApplication.SelectMenu(firstLevel, secondLevel, thirdLevel);
+            MainView.MenuBarApplication.SelectMenu(path.Split('/'));
         }
 
-        [When(@"User selects ""(.*)"", ""(.*)"" from the main app menu")]
-        public void SelectItemFromTheMainAppMenu(string firstLevel, string secondLevel)
-        {
-            MainView.MenuBarApplication.SelectMenu(firstLevel, secondLevel);
-        }
-
-        [Then(@"Side panel is open")]
+        [Then(@"Side panel is opened")]
         public void AssertSidePanelIsOpen()
         {
             AssertionUtil.AssertTrue(MainView.ListBoxSidePanel.IsVisible(), "Side panel is not visible");
         }
 
-        [Then(@"Side panel is not open")]
+        [Then(@"Side panel is not opened")]
         public void AssertSidePanelIsNotOpen()
         {
             AssertionUtil.AssertFalse(MainView.ListBoxSidePanel.IsVisible(), "Side panel is still visible");
@@ -194,7 +238,7 @@ namespace Tests.steps
         [Then(@"""(.*)"" tab item is selected")]
         public void AssertTabItemIsSelected(string tabItem)
         {
-            AssertionUtil.AssertEquals(FindFilesView.TabFindFiles.GetSelectedTabName(), tabItem, "tabs are different");
+            AssertionUtil.AssertEquals(FindFilesView.TabFindFiles.SelectedTab.Name, tabItem, "tabs are different");
         }
 
         [Then(@"""(.*)"" field value is ""(.*)""")]
@@ -234,21 +278,9 @@ namespace Tests.steps
         [Then(@"Only ""(.*)"" is found")]
         public void AssertThenOnlyItemIsFound(string filename)
         {
-            AssertionUtil.AssertEquals(FindFilesView.ListBoxSearchResults.GetItems().Count, 2, "Results list size is incorrect");
+            AssertionUtil.AssertEquals(FindFilesView.ListBoxSearchResults.Items.Count, 2, "Results list size is incorrect");
             AssertionUtil.AssertNotNull(FindFilesView.ListItemSearchResultsCount(1, 0), "Count is incorrect");
             AssertionUtil.AssertNotNull(FindFilesView.ListItemSearchResult(filename), "Found item is incorrect");
-        }
-
-        [When(@"User closes search window")]
-        public void CloseCurrentWindow()
-        {
-            FindFilesView.ButtonCloseWindow.Click();
-        }
-
-        [Then(@"Search window is closed")]
-        public void AssertWindowIsClosed()
-        {
-            AssertionUtil.AssertTrue(FindFilesView.FindFilesWindow.IsClosed, "window is not closed");
         }
 
         [When(@"User unselects all files on ""(.*)"" panel")]
@@ -257,33 +289,10 @@ namespace Tests.steps
             SelectItemOnPanel("..", panel);
         }
 
-        [Then(@"Warning window is open")]
-        public void AssertWarningWindowIsOpen()
-        {
-            AssertionUtil.AssertTrue(Scope.DefaultWindow.ModalWindow(ConfigurationManager.AppSettings["ModalWindowName"]).IsCurrentlyActive,
-                "Modal window is not found");
-            AssertionUtil.AssertNotNull(MainView.LabelNoFilesSelected(
-                Scope.DefaultWindow.ModalWindow(ConfigurationManager.AppSettings["ModalWindowName"])),
-                "No label found");
-        }
-
-        [When(@"User closes warning window")]
-        public void CloseWarningWindow()
+        [When(@"User closes warning dialog")]
+        public void CloseWarningDialog()
         {
             MainView.ButtonCloseEditCommentDialog.Click();
-        }
-
-        [Then(@"Warning window is closed")]
-        public void AssertWarningWindowIsClosed()
-        {
-            List<string> titles = new List<string>();
-            foreach (var modal in Scope.DefaultWindow.ModalWindows())
-            {
-                titles.Add(modal.Title);
-            }
-
-            AssertionUtil.AssertFalse(titles.Contains(ConfigurationManager.AppSettings["ModalWindowName"]), 
-                "Modal window is found when should not");
         }
 
         [Then(@"App is closed")]
@@ -293,14 +302,24 @@ namespace Tests.steps
             AssertionUtil.AssertTrue(Scope.Application.Application.HasExited, "App is not stopped yet");
         }
 
+        public static bool IsDefaultWindowOpen(string title)
+        {
+            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            return Scope.DefaultWindow.Title == title;
+        }
+
+        public static bool IsDefaultWindowCurrentlyActive(string title)
+        {
+            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
+            return Scope.DefaultWindow.IsCurrentlyActive;
+        }
+
         public void OpenPath(string panel, string folder)
         {
-            Thread.Sleep(2000);
             var textlines = MainView.Panels;
             List<Panel> panels = new List<Panel>();
             panels.AddRange(textlines.Where(textline => textline.Name.Contains("*.*")));
             panels[GetPanelIndex(panel)].Click();
-            Thread.Sleep(2000);
             MainView.PathTextBox(panels[GetPanelIndex(panel)].RawItem).SetValue(folder);
             MainView.PathTextBox(panels[GetPanelIndex(panel)].RawItem).KeyIn(KeyboardInput.SpecialKeys.RETURN);
         }
@@ -308,7 +327,7 @@ namespace Tests.steps
         public void MoveFile(int fromPanel, string filename, int toPanel)
         {
             Point fileCoordinates = new Point();
-            var item = MainView.ListBoxPanel(fromPanel).GetItems();
+            var item = MainView.ListBoxPanel(fromPanel).Items;
             foreach (var listBoxItem in item)
             {
                 if (!listBoxItem.Name.Contains(filename)) continue;
@@ -321,37 +340,37 @@ namespace Tests.steps
 
             LoggerUtil.Info("Performing drag and drop");
             MouseInteractionUtil.DragAndDropByLocation(fileCoordinates, new Point(
-                MainView.ListBoxPanel(toPanel).GetBounds().BottomRight.X - 10,
-                MainView.ListBoxPanel(toPanel).GetBounds().BottomRight.Y - 10));
+                MainView.ListBoxPanel(toPanel).Bounds.BottomRight.X - 10,
+                MainView.ListBoxPanel(toPanel).Bounds.BottomRight.Y - 10));
         }
 
-        public void SelectItemInContextMenu(int fromPanel, string itemName, string property)
+        public void SelectItemInContextMenu(int fromPanel, string itemName, string option)
         {
-            foreach (var listBoxItem in MainView.ListBoxPanel(fromPanel).GetItems())
+            foreach (var listBoxItem in MainView.ListBoxPanel(fromPanel).Items)
             {
                 if (!listBoxItem.Name.Contains(itemName)) continue;
                 LoggerUtil.Info($"List Item {itemName} is found, right clicking");
                 Mouse.Instance.Location = new Point(listBoxItem.Bounds.X, listBoxItem.Bounds.Y);
                 MouseInteractionUtil.RightClickWithDelay();
-                LoggerUtil.Info($"Selecting property {property}");
-                Scope.DefaultWindow.Popup.Item(property).Click();
+                LoggerUtil.Info($"Selecting option {option}");
+                Scope.DefaultWindow.Popup.Item(option).Click();
                 break;
             }
         }
 
-        public void SelectItemInContextMenu(int panel, string property)
+        public void SelectItemInContextMenu(int panel, string option)
         {
-            LoggerUtil.Info($"Selecting property {property} in context menu");
+            LoggerUtil.Info($"Selecting option {option} in context menu");
             Mouse.Instance.Location =
-                new Point(MainView.ListBoxPanel(panel).GetBounds().BottomLeft.X + 20,
-                          MainView.ListBoxPanel(panel).GetBounds().BottomLeft.Y - 10);
+                new Point(MainView.ListBoxPanel(panel).Bounds.BottomLeft.X + 20,
+                          MainView.ListBoxPanel(panel).Bounds.BottomLeft.Y - 10);
             MouseInteractionUtil.RightClickWithDelay();
-            Scope.DefaultWindow.Popup.Item(property).Click();
+            Scope.DefaultWindow.Popup.Item(option).Click();
         }
 
         public void SelectItemOnPanel(string itemName, string panel)
         {
-            foreach (var panelItem in MainView.ListBoxPanel(GetPanelIndex(panel)).GetItems())
+            foreach (var panelItem in MainView.ListBoxPanel(GetPanelIndex(panel)).Items)
             {
                 if (!panelItem.Name.Contains(itemName)) continue;
                 LoggerUtil.Info($"Item {itemName} is found on {panel} panel");
@@ -376,10 +395,10 @@ namespace Tests.steps
 
         public bool IsFileFound(string panel, string file)
         {
-            Retry.For(() => MyApp.IsWindowOpen(ConfigurationManager.AppSettings["MainWindowName"]), TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
+            Retry.For(() => IsDefaultWindowOpen(ConfigurationManager.AppSettings["MainWindowName"]), TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
             Scope.DefaultWindow.Focus();
             Retry.For(() => Scope.DefaultWindow.IsFocussed, TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
-            var loaded = Retry.For(() => MainView.ListBoxPanel(GetPanelIndex(panel)).GetItems().Exists(item => item.Name.Contains(file)), TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
+            var loaded = Retry.For(() => MainView.ListBoxPanel(GetPanelIndex(panel)).Items.Exists(item => item.Name.Contains(file)), TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
             LoggerUtil.Log.Info($"Finding file {file} on {panel} panel");
             return loaded;
         }

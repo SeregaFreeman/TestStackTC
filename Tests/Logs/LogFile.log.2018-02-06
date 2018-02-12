@@ -1,0 +1,1916 @@
+2018-02-06 11:53:11,105  INFO  Starting the scenario...
+2018-02-06 11:53:11,472  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 11:53:15,304  INFO  Performing click on start using app
+2018-02-06 11:53:15,838  INFO  Performing click on Panel
+2018-02-06 11:53:20,035  INFO  Performing click on name
+2018-02-06 11:53:22,187  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub3
+2018-02-06 11:53:22,264  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 11:53:24,458  INFO  Performing click on Panel
+2018-02-06 11:53:28,636  INFO  Performing click on name
+2018-02-06 11:53:30,721  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub4
+2018-02-06 11:53:30,794  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 11:53:33,000  INFO  List Item file1 is found, getting clickable point
+2018-02-06 11:53:33,068  INFO  Performing drag and drop
+2018-02-06 11:53:35,252  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 11:53:35,292  INFO  Performing click on Confirm
+2018-02-06 11:53:37,513  INFO  List Item file1 is found, right clicking
+2018-02-06 11:53:37,583  INFO  Selecting property Cut
+2018-02-06 11:53:39,824  INFO  Selecting property Paste in context menu
+2018-02-06 11:53:41,323  INFO  Performing click on Replace
+2018-02-06 11:53:52,764  INFO  Finding file file1 on right panel
+2018-02-06 11:53:57,887  INFO  Finding file file1 on left panel
+2018-02-06 11:53:57,976  INFO  Selecting System.String[] in Main app menu
+2018-02-06 11:54:21,661  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 11:54:21,661  INFO  Object reference not set to an instance of an object.
+2018-02-06 11:54:23,224  INFO  Getting selected tab name from  tab
+2018-02-06 11:54:24,491  INFO  
+2018-02-06 11:54:24,527  INFO  Killing the app
+2018-02-06 11:58:16,882  INFO  Starting the scenario...
+2018-02-06 11:58:16,965  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 11:58:18,287  INFO  Performing click on start using app
+2018-02-06 11:58:18,628  INFO  Performing click on Panel
+2018-02-06 11:58:22,811  INFO  Performing click on name
+2018-02-06 11:58:24,932  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub3
+2018-02-06 11:58:25,004  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 11:58:27,176  INFO  Performing click on Panel
+2018-02-06 11:58:31,367  INFO  Performing click on name
+2018-02-06 11:58:33,437  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub4
+2018-02-06 11:58:33,511  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 11:58:35,667  INFO  List Item file1 is found, getting clickable point
+2018-02-06 11:58:35,746  INFO  Performing drag and drop
+2018-02-06 11:58:37,975  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 11:58:38,021  INFO  Performing click on Confirm
+2018-02-06 11:58:40,189  INFO  List Item file1 is found, right clicking
+2018-02-06 11:58:40,253  INFO  Selecting property Cut
+2018-02-06 11:58:40,992  INFO  Selecting property Paste in context menu
+2018-02-06 11:58:41,954  INFO  Performing click on Replace
+2018-02-06 11:58:53,463  INFO  Finding file file1 on right panel
+2018-02-06 11:58:58,569  INFO  Finding file file1 on left panel
+2018-02-06 11:58:58,659  INFO  Selecting System.String[] in Main app menu
+2018-02-06 11:59:12,906  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 11:59:12,906  INFO  Object reference not set to an instance of an object.
+2018-02-06 11:59:14,499  INFO  Getting selected tab name from  tab
+2018-02-06 11:59:15,744  INFO  C:\sub3
+2018-02-06 11:59:15,787  INFO  Killing the app
+2018-02-06 12:48:24,304  INFO  Starting the scenario...
+2018-02-06 12:48:24,396  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 12:48:26,026  INFO  Performing click on start using app
+2018-02-06 12:48:26,346  INFO  Performing click on Panel
+2018-02-06 12:48:30,536  INFO  Performing click on name
+2018-02-06 12:48:32,648  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub3
+2018-02-06 12:48:32,722  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 12:48:34,894  INFO  Performing click on Panel
+2018-02-06 12:48:39,099  INFO  Performing click on name
+2018-02-06 12:48:41,172  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub4
+2018-02-06 12:48:41,255  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 12:48:43,446  INFO  List Item file1 is found, getting clickable point
+2018-02-06 12:48:43,517  INFO  Performing drag and drop
+2018-02-06 12:48:45,730  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 12:48:45,767  INFO  Performing click on Confirm
+2018-02-06 12:48:47,956  INFO  List Item file1 is found, right clicking
+2018-02-06 12:48:48,015  INFO  Selecting property Cut
+2018-02-06 12:48:48,825  INFO  Selecting property Paste in context menu
+2018-02-06 12:48:49,784  INFO  Performing click on Replace
+2018-02-06 12:49:01,324  INFO  Finding file file1 on right panel
+2018-02-06 12:49:06,433  INFO  Finding file file1 on left panel
+2018-02-06 12:49:06,522  INFO  Selecting System.String[] in Main app menu
+2018-02-06 12:49:31,557  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 12:49:31,576  INFO  Object reference not set to an instance of an object.
+2018-02-06 12:49:33,183  INFO  Getting selected tab name from  tab
+2018-02-06 12:49:34,954  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 12:49:35,229  INFO  Performing click on RegEx
+2018-02-06 12:49:36,015  INFO  Performing click on Start search
+2018-02-06 12:49:36,627  INFO  Killing the app
+2018-02-06 12:54:58,068  INFO  Starting the scenario...
+2018-02-06 12:54:58,182  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 12:55:00,094  INFO  Performing click on start using app
+2018-02-06 12:55:00,496  INFO  Performing click on Panel
+2018-02-06 12:55:04,706  INFO  Performing click on name
+2018-02-06 12:55:06,869  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub3
+2018-02-06 12:55:06,973  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 12:55:09,201  INFO  Performing click on Panel
+2018-02-06 12:55:13,424  INFO  Performing click on name
+2018-02-06 12:55:15,508  INFO  Setting value into TextBox — Edit path. Value for enter — C:\\sub4
+2018-02-06 12:55:15,614  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 12:55:17,827  INFO  List Item file1 is found, getting clickable point
+2018-02-06 12:55:17,925  INFO  Performing drag and drop
+2018-02-06 12:55:20,113  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 12:55:20,171  INFO  Performing click on Confirm
+2018-02-06 12:55:22,400  INFO  List Item file1 is found, right clicking
+2018-02-06 12:55:22,844  INFO  Selecting property Cut
+2018-02-06 12:55:23,231  INFO  Selecting property Paste in context menu
+2018-02-06 12:55:24,248  INFO  Performing click on Replace
+2018-02-06 12:55:35,834  INFO  Finding file file1 on right panel
+2018-02-06 12:55:40,941  INFO  Finding file file1 on left panel
+2018-02-06 12:55:41,023  INFO  Selecting System.String[] in Main app menu
+2018-02-06 12:55:55,805  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 12:55:55,819  INFO  Object reference not set to an instance of an object.
+2018-02-06 12:55:57,484  INFO  Getting selected tab name from  tab
+2018-02-06 12:55:59,550  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 12:55:59,811  INFO  Performing click on RegEx
+2018-02-06 12:56:00,580  INFO  Performing click on Start search
+2018-02-06 12:56:00,903  INFO  Killing the app
+2018-02-06 13:36:17,528  INFO  Starting the scenario...
+2018-02-06 13:36:18,195  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 13:36:22,517  INFO  Performing click on start using app
+2018-02-06 13:36:23,609  INFO  Performing click on Panel
+2018-02-06 13:36:27,796  INFO  Performing click on name
+2018-02-06 13:36:29,971  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 13:36:30,068  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:36:32,280  INFO  Performing click on Panel
+2018-02-06 13:36:36,452  INFO  Performing click on name
+2018-02-06 13:36:38,541  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 13:36:38,625  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:36:40,821  INFO  List Item file1 is found, getting clickable point
+2018-02-06 13:36:40,887  INFO  Performing drag and drop
+2018-02-06 13:36:43,091  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 13:36:43,135  INFO  Performing click on Confirm
+2018-02-06 13:36:45,341  INFO  List Item file1 is found, right clicking
+2018-02-06 13:36:45,401  INFO  Selecting property Cut
+2018-02-06 13:36:47,689  INFO  Selecting property Paste in context menu
+2018-02-06 13:36:49,592  INFO  Performing click on Replace
+2018-02-06 13:37:01,131  INFO  Finding file file1 on right panel
+2018-02-06 13:37:06,237  INFO  Finding file file1 on left panel
+2018-02-06 13:37:06,313  INFO  Selecting System.String[] in Main app menu
+2018-02-06 13:37:23,369  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 13:37:23,370  INFO  Object reference not set to an instance of an object.
+2018-02-06 13:37:24,941  INFO  Getting selected tab name from  tab
+2018-02-06 13:37:26,737  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 13:37:27,021  INFO  Performing click on RegEx
+2018-02-06 13:37:27,792  INFO  Performing click on Start search
+2018-02-06 13:37:33,209  ERROR Expected objects to be equal, but getNUnit.Framework.AssertionException:   Results list size is incorrect
+  Expected: 102
+  But was:  2
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at TestStackFramework.utils.AssertionUtil.AssertEquals(Object expected, Object actual, String message) in D:\TestStack\TotalCommander\TestStackFramework\utils\AssertionUtil.cs:line 50
+2018-02-06 13:37:33,330  INFO  Killing the app
+2018-02-06 13:37:33,511  INFO  Starting the scenario...
+2018-02-06 13:37:33,540  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 13:37:34,228  INFO  Performing click on start using app
+2018-02-06 13:37:34,428  INFO  Performing click on Panel
+2018-02-06 13:37:38,661  INFO  Performing click on name
+2018-02-06 13:37:41,011  INFO  Killing the app
+2018-02-06 13:38:16,406  INFO  Starting the scenario...
+2018-02-06 13:38:16,500  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 13:38:17,490  INFO  Performing click on start using app
+2018-02-06 13:38:17,813  INFO  Performing click on Panel
+2018-02-06 13:38:22,007  INFO  Performing click on name
+2018-02-06 13:38:24,128  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 13:38:24,216  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:38:26,424  INFO  Performing click on Panel
+2018-02-06 13:38:30,613  INFO  Performing click on name
+2018-02-06 13:38:32,685  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 13:38:32,762  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:38:34,936  INFO  List Item file1 is found, getting clickable point
+2018-02-06 13:38:34,999  INFO  Performing drag and drop
+2018-02-06 13:38:37,207  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 13:38:37,251  INFO  Performing click on Confirm
+2018-02-06 13:38:39,457  INFO  List Item file1 is found, right clicking
+2018-02-06 13:38:39,515  INFO  Selecting property Cut
+2018-02-06 13:38:40,474  INFO  Selecting property Paste in context menu
+2018-02-06 13:38:41,402  INFO  Performing click on Replace
+2018-02-06 13:38:52,835  INFO  Finding file file1 on right panel
+2018-02-06 13:38:57,930  INFO  Finding file file1 on left panel
+2018-02-06 13:38:58,021  INFO  Selecting System.String[] in Main app menu
+2018-02-06 13:39:12,155  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 13:39:12,155  INFO  Object reference not set to an instance of an object.
+2018-02-06 13:39:13,587  INFO  Getting selected tab name from  tab
+2018-02-06 13:39:15,364  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 13:39:15,633  INFO  Performing click on RegEx
+2018-02-06 13:39:16,402  INFO  Performing click on Start search
+2018-02-06 13:39:21,805  ERROR Expected objects to be equal, but getNUnit.Framework.AssertionException:   Results list size is incorrect
+  Expected: 102
+  But was:  2
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at TestStackFramework.utils.AssertionUtil.AssertEquals(Object expected, Object actual, String message) in D:\TestStack\TotalCommander\TestStackFramework\utils\AssertionUtil.cs:line 50
+2018-02-06 13:39:21,832  INFO  Killing the app
+2018-02-06 13:39:21,941  INFO  Starting the scenario...
+2018-02-06 13:39:21,992  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 13:39:22,795  INFO  Performing click on start using app
+2018-02-06 13:39:23,015  INFO  Performing click on Panel
+2018-02-06 13:39:27,191  INFO  Performing click on name
+2018-02-06 13:39:29,288  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 13:39:29,374  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:39:31,544  INFO  Performing click on Panel
+2018-02-06 13:39:35,729  INFO  Performing click on name
+2018-02-06 13:39:37,804  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 13:39:37,880  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:39:40,044  INFO  List Item file1 is found, getting clickable point
+2018-02-06 13:39:40,110  INFO  Performing drag and drop
+2018-02-06 13:39:42,318  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 13:39:42,327  INFO  Performing click on Confirm
+2018-02-06 13:39:42,552  INFO  Killing the app
+2018-02-06 13:39:42,609  INFO  Starting the scenario...
+2018-02-06 13:39:42,666  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 13:39:43,563  INFO  Performing click on start using app
+2018-02-06 13:39:43,793  INFO  Performing click on Panel
+2018-02-06 13:39:47,967  INFO  Performing click on name
+2018-02-06 13:39:50,047  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 13:39:50,118  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:39:52,282  INFO  Performing click on Panel
+2018-02-06 13:39:56,454  INFO  Performing click on name
+2018-02-06 13:40:02,753  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 13:40:02,852  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:40:05,035  INFO  List Item file1 is found, getting clickable point
+2018-02-06 13:40:05,100  INFO  Performing drag and drop
+2018-02-06 13:40:07,289  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 13:40:07,301  INFO  Performing click on Confirm
+2018-02-06 13:40:07,524  INFO  Killing the app
+2018-02-06 13:55:37,224  INFO  Starting the scenario...
+2018-02-06 13:55:38,565  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 13:55:57,776  INFO  Performing click on start using app
+2018-02-06 13:56:00,012  INFO  Performing click on Panel
+2018-02-06 13:56:04,183  INFO  Performing click on name
+2018-02-06 13:56:06,462  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 13:56:06,552  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:56:09,645  INFO  Performing click on Panel
+2018-02-06 13:56:13,835  INFO  Performing click on name
+2018-02-06 13:56:15,902  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 13:56:15,976  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 13:56:18,186  INFO  List Item file1 is found, getting clickable point
+2018-02-06 13:56:18,250  INFO  Performing drag and drop
+2018-02-06 13:56:20,463  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 13:56:20,511  INFO  Performing click on Confirm
+2018-02-06 13:56:23,637  INFO  List Item file1 is found, right clicking
+2018-02-06 13:56:23,698  INFO  Selecting property Cut
+2018-02-06 13:56:28,267  INFO  Selecting property Paste in context menu
+2018-02-06 13:56:31,108  INFO  Performing click on Replace
+2018-02-06 13:56:42,564  INFO  Finding file file1 on right panel
+2018-02-06 13:56:47,672  INFO  Finding file file1 on left panel
+2018-02-06 13:56:47,757  INFO  Selecting System.String[] in Main app menu
+2018-02-06 13:57:07,223  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 13:57:07,238  INFO  Object reference not set to an instance of an object.
+2018-02-06 13:57:08,853  INFO  Getting selected tab name from  tab
+2018-02-06 13:57:11,331  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 13:57:11,622  INFO  Performing click on RegEx
+2018-02-06 13:57:12,406  INFO  Performing click on Start search
+2018-02-06 13:57:14,375  INFO  Killing the app
+2018-02-06 14:11:51,704  INFO  Starting the scenario...
+2018-02-06 14:11:51,823  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:11:53,180  INFO  Performing click on start using app
+2018-02-06 14:11:53,520  INFO  Performing click on Panel
+2018-02-06 14:11:57,730  INFO  Performing click on name
+2018-02-06 14:11:59,835  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:11:59,910  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:12:02,261  INFO  Performing click on Panel
+2018-02-06 14:12:06,470  INFO  Performing click on name
+2018-02-06 14:12:08,539  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:12:08,625  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:12:10,794  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:12:10,883  INFO  Performing drag and drop
+2018-02-06 14:12:13,086  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:12:13,125  INFO  Performing click on Confirm
+2018-02-06 14:12:15,465  INFO  List Item file1 is found, right clicking
+2018-02-06 14:12:15,534  INFO  Selecting property Cut
+2018-02-06 14:12:16,324  INFO  Selecting property Paste in context menu
+2018-02-06 14:12:17,526  INFO  Performing click on Replace
+2018-02-06 14:12:28,952  INFO  Finding file file1 on right panel
+2018-02-06 14:12:34,072  INFO  Finding file file1 on left panel
+2018-02-06 14:12:34,158  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:12:48,589  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:12:48,590  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:13:20,778  INFO  Killing the app
+2018-02-06 14:13:20,860  INFO  Starting the scenario...
+2018-02-06 14:13:20,906  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:13:21,931  INFO  Performing click on start using app
+2018-02-06 14:13:22,152  INFO  Performing click on Panel
+2018-02-06 14:13:26,368  INFO  Performing click on name
+2018-02-06 14:21:56,397  INFO  Starting the scenario...
+2018-02-06 14:21:56,493  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:21:57,998  INFO  Performing click on start using app
+2018-02-06 14:21:58,415  INFO  Performing click on Panel
+2018-02-06 14:22:02,624  INFO  Performing click on name
+2018-02-06 14:22:04,745  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:22:04,830  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:22:07,004  INFO  Performing click on Panel
+2018-02-06 14:22:11,191  INFO  Performing click on name
+2018-02-06 14:22:13,264  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:22:13,339  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:22:15,510  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:22:15,580  INFO  Performing drag and drop
+2018-02-06 14:22:17,788  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:22:17,832  INFO  Performing click on Confirm
+2018-02-06 14:22:20,006  INFO  List Item file1 is found, right clicking
+2018-02-06 14:22:20,065  INFO  Selecting property Cut
+2018-02-06 14:22:20,790  INFO  Selecting property Paste in context menu
+2018-02-06 14:22:21,742  INFO  Performing click on Replace
+2018-02-06 14:22:33,188  INFO  Finding file file1 on right panel
+2018-02-06 14:22:38,299  INFO  Finding file file1 on left panel
+2018-02-06 14:22:38,401  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:22:52,939  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:22:52,940  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:22:54,246  INFO  Getting selected tab name from  tab
+2018-02-06 14:22:56,004  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 14:22:56,487  INFO  Performing click on RegEx
+2018-02-06 14:22:57,627  INFO  Performing click on Start search
+2018-02-06 14:23:00,124  INFO  Performing click on Close Window
+2018-02-06 14:23:00,686  ERROR Expected 'false', found TrueNUnit.Framework.AssertionException:   window is not closed
+  Expected: False
+  But was:  True
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.False(Boolean condition, String message, Object[] args)
+   at TestStackFramework.utils.AssertionUtil.AssertFalse(Boolean condition, String message) in D:\TestStack\TotalCommander\TestStackFramework\utils\AssertionUtil.cs:line 24
+2018-02-06 14:23:00,739  INFO  Killing the app
+2018-02-06 14:23:00,860  INFO  Starting the scenario...
+2018-02-06 14:23:00,910  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:23:02,262  INFO  Performing click on start using app
+2018-02-06 14:23:02,512  INFO  Performing click on Panel
+2018-02-06 14:23:06,764  INFO  Performing click on name
+2018-02-06 14:24:59,322  INFO  Starting the scenario...
+2018-02-06 14:24:59,411  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:25:00,558  INFO  Performing click on start using app
+2018-02-06 14:25:00,877  INFO  Performing click on Panel
+2018-02-06 14:25:05,067  INFO  Performing click on name
+2018-02-06 14:25:07,179  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:25:07,262  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:25:09,478  INFO  Performing click on Panel
+2018-02-06 14:25:13,648  INFO  Performing click on name
+2018-02-06 14:25:15,743  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:25:15,818  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:25:17,996  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:25:18,074  INFO  Performing drag and drop
+2018-02-06 14:25:20,250  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:25:20,290  INFO  Performing click on Confirm
+2018-02-06 14:25:22,487  INFO  List Item file1 is found, right clicking
+2018-02-06 14:25:22,550  INFO  Selecting property Cut
+2018-02-06 14:25:23,275  INFO  Selecting property Paste in context menu
+2018-02-06 14:25:24,235  INFO  Performing click on Replace
+2018-02-06 14:25:35,638  INFO  Finding file file1 on right panel
+2018-02-06 14:25:40,742  INFO  Finding file file1 on left panel
+2018-02-06 14:25:40,820  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:25:55,171  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:25:55,171  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:25:56,491  INFO  Getting selected tab name from  tab
+2018-02-06 14:25:58,229  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 14:25:58,728  INFO  Performing click on RegEx
+2018-02-06 14:25:59,831  INFO  Performing click on Start search
+2018-02-06 14:26:02,315  INFO  Performing click on Close Window
+2018-02-06 14:26:02,820  ERROR Expected 'false', found TrueNUnit.Framework.AssertionException:   window is not closed
+  Expected: False
+  But was:  True
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.False(Boolean condition, String message, Object[] args)
+   at TestStackFramework.utils.AssertionUtil.AssertFalse(Boolean condition, String message) in D:\TestStack\TotalCommander\TestStackFramework\utils\AssertionUtil.cs:line 24
+2018-02-06 14:26:02,885  INFO  Killing the app
+2018-02-06 14:26:03,036  INFO  Starting the scenario...
+2018-02-06 14:26:03,071  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:26:04,132  INFO  Performing click on start using app
+2018-02-06 14:26:04,346  INFO  Performing click on Panel
+2018-02-06 14:26:08,552  INFO  Performing click on name
+2018-02-06 14:26:10,647  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:26:10,736  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:26:12,969  INFO  Performing click on Panel
+2018-02-06 14:26:17,208  INFO  Performing click on name
+2018-02-06 14:27:16,848  INFO  Starting the scenario...
+2018-02-06 14:27:17,038  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:27:18,352  INFO  Performing click on start using app
+2018-02-06 14:27:18,807  INFO  Performing click on Panel
+2018-02-06 14:27:23,024  INFO  Performing click on name
+2018-02-06 14:27:25,320  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:27:25,428  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:27:27,627  INFO  Performing click on Panel
+2018-02-06 14:27:31,858  INFO  Performing click on name
+2018-02-06 14:27:33,944  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:27:34,031  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:27:36,233  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:27:36,301  INFO  Performing drag and drop
+2018-02-06 14:27:38,496  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:27:38,540  INFO  Performing click on Confirm
+2018-02-06 14:27:40,791  INFO  List Item file1 is found, right clicking
+2018-02-06 14:27:40,850  INFO  Selecting property Cut
+2018-02-06 14:27:41,442  INFO  Selecting property Paste in context menu
+2018-02-06 14:27:42,395  INFO  Performing click on Replace
+2018-02-06 14:27:53,921  INFO  Finding file file1 on right panel
+2018-02-06 14:27:59,044  INFO  Finding file file1 on left panel
+2018-02-06 14:27:59,494  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:28:13,730  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:28:13,758  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:28:15,124  INFO  Getting selected tab name from  tab
+2018-02-06 14:28:15,331  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 14:28:15,574  INFO  Performing click on RegEx
+2018-02-06 14:28:15,807  INFO  Performing click on Start search
+2018-02-06 14:28:16,335  INFO  Performing click on Close Window
+2018-02-06 14:29:44,094  ERROR Expected 'false', found TrueNUnit.Framework.AssertionException:   window is not closed
+  Expected: False
+  But was:  True
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.False(Boolean condition, String message, Object[] args)
+   at TestStackFramework.utils.AssertionUtil.AssertFalse(Boolean condition, String message) in D:\TestStack\TotalCommander\TestStackFramework\utils\AssertionUtil.cs:line 24
+2018-02-06 14:30:30,995  INFO  Killing the app
+2018-02-06 14:30:31,087  INFO  Starting the scenario...
+2018-02-06 14:30:31,122  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:30:32,172  INFO  Performing click on start using app
+2018-02-06 14:30:32,447  INFO  Performing click on Panel
+2018-02-06 14:32:06,877  INFO  Starting the scenario...
+2018-02-06 14:32:06,969  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:32:08,032  INFO  Performing click on start using app
+2018-02-06 14:32:08,496  INFO  Performing click on Panel
+2018-02-06 14:32:12,704  INFO  Performing click on name
+2018-02-06 14:32:14,933  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:32:15,034  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:32:17,238  INFO  Performing click on Panel
+2018-02-06 14:32:21,442  INFO  Performing click on name
+2018-02-06 14:32:23,553  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:32:23,648  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:32:25,854  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:32:25,918  INFO  Performing drag and drop
+2018-02-06 14:32:28,108  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:32:28,176  INFO  Performing click on Confirm
+2018-02-06 14:32:30,401  INFO  List Item file1 is found, right clicking
+2018-02-06 14:32:30,467  INFO  Selecting property Cut
+2018-02-06 14:32:31,059  INFO  Selecting property Paste in context menu
+2018-02-06 14:32:32,052  INFO  Performing click on Replace
+2018-02-06 14:32:43,603  INFO  Finding file file1 on right panel
+2018-02-06 14:32:48,697  INFO  Finding file file1 on left panel
+2018-02-06 14:32:48,861  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:33:02,968  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:33:02,977  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:33:04,235  INFO  Getting selected tab name from  tab
+2018-02-06 14:33:04,401  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 14:33:04,608  INFO  Performing click on RegEx
+2018-02-06 14:33:04,841  INFO  Performing click on Start search
+2018-02-06 14:33:05,354  INFO  Performing click on Close Window
+2018-02-06 14:34:59,329  INFO  Starting the scenario...
+2018-02-06 14:34:59,459  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:35:00,867  INFO  Performing click on start using app
+2018-02-06 14:35:01,325  INFO  Performing click on Panel
+2018-02-06 14:35:05,509  INFO  Performing click on name
+2018-02-06 14:35:07,723  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:35:07,823  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:35:10,010  INFO  Performing click on Panel
+2018-02-06 14:35:14,255  INFO  Performing click on name
+2018-02-06 14:35:16,345  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:35:16,434  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:35:18,610  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:35:18,702  INFO  Performing drag and drop
+2018-02-06 14:35:20,915  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:35:20,969  INFO  Performing click on Confirm
+2018-02-06 14:35:23,161  INFO  List Item file1 is found, right clicking
+2018-02-06 14:35:23,239  INFO  Selecting property Cut
+2018-02-06 14:35:24,012  INFO  Selecting property Paste in context menu
+2018-02-06 14:35:24,971  INFO  Performing click on Replace
+2018-02-06 14:35:36,516  INFO  Finding file file1 on right panel
+2018-02-06 14:35:41,607  INFO  Finding file file1 on left panel
+2018-02-06 14:35:41,735  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:35:56,520  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:35:56,530  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:35:57,789  INFO  Getting selected tab name from  tab
+2018-02-06 14:35:57,964  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 14:35:58,148  INFO  Performing click on RegEx
+2018-02-06 14:35:58,357  INFO  Performing click on Start search
+2018-02-06 14:35:58,890  INFO  Performing click on Close Window
+2018-02-06 14:40:38,984  INFO  Starting the scenario...
+2018-02-06 14:40:39,072  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 14:40:40,714  INFO  Performing click on start using app
+2018-02-06 14:40:41,075  INFO  Performing click on Panel
+2018-02-06 14:40:45,261  INFO  Performing click on name
+2018-02-06 14:40:47,391  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 14:40:47,477  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:40:49,653  INFO  Performing click on Panel
+2018-02-06 14:40:53,838  INFO  Performing click on name
+2018-02-06 14:40:55,922  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 14:40:56,002  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 14:40:58,187  INFO  List Item file1 is found, getting clickable point
+2018-02-06 14:40:58,249  INFO  Performing drag and drop
+2018-02-06 14:41:00,453  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 14:41:00,491  INFO  Performing click on Confirm
+2018-02-06 14:41:02,673  INFO  List Item file1 is found, right clicking
+2018-02-06 14:41:02,732  INFO  Selecting property Cut
+2018-02-06 14:41:03,309  INFO  Selecting property Paste in context menu
+2018-02-06 14:41:04,233  INFO  Performing click on Replace
+2018-02-06 14:41:15,652  INFO  Finding file file1 on right panel
+2018-02-06 14:41:20,765  INFO  Finding file file1 on left panel
+2018-02-06 14:41:20,857  INFO  Selecting System.String[] in Main app menu
+2018-02-06 14:41:35,254  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 14:41:35,255  INFO  Object reference not set to an instance of an object.
+2018-02-06 14:41:36,616  INFO  Getting selected tab name from  tab
+2018-02-06 14:41:38,357  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 14:41:38,861  INFO  Performing click on RegEx
+2018-02-06 14:41:40,002  INFO  Performing click on Start search
+2018-02-06 14:41:42,464  INFO  Performing click on Close Window
+2018-02-06 14:41:42,993  INFO  Killing the app
+2018-02-06 15:08:28,199  INFO  Starting the scenario...
+2018-02-06 15:08:28,288  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:08:29,862  INFO  Performing click on start using app
+2018-02-06 15:08:30,199  INFO  Performing click on Panel
+2018-02-06 15:08:34,392  INFO  Performing click on name
+2018-02-06 15:08:36,522  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:08:36,609  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:08:38,824  INFO  Performing click on Panel
+2018-02-06 15:08:43,033  INFO  Performing click on name
+2018-02-06 15:08:45,131  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:08:45,207  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:08:47,424  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:08:47,507  INFO  Performing drag and drop
+2018-02-06 15:08:49,769  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:08:49,812  INFO  Performing click on Confirm
+2018-02-06 15:08:52,196  INFO  Killing the app
+2018-02-06 15:08:52,281  INFO  Starting the scenario...
+2018-02-06 15:08:52,317  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:08:53,144  INFO  Performing click on start using app
+2018-02-06 15:08:53,478  INFO  Performing click on Panel
+2018-02-06 15:08:57,769  INFO  Performing click on name
+2018-02-06 15:08:59,854  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:09:00,072  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:09:02,273  INFO  Performing click on Panel
+2018-02-06 15:11:10,645  INFO  Starting the scenario...
+2018-02-06 15:11:10,736  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:11:12,230  INFO  Performing click on start using app
+2018-02-06 15:11:12,540  INFO  Performing click on Panel
+2018-02-06 15:11:16,704  INFO  Performing click on name
+2018-02-06 15:11:18,811  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:11:18,906  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:11:21,093  INFO  Performing click on Panel
+2018-02-06 15:11:25,291  INFO  Performing click on name
+2018-02-06 15:11:27,370  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:11:27,454  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:11:29,629  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:11:29,699  INFO  Performing drag and drop
+2018-02-06 15:11:31,906  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:11:31,945  INFO  Performing click on Confirm
+2018-02-06 15:11:34,282  INFO  Killing the app
+2018-02-06 15:11:34,388  INFO  Starting the scenario...
+2018-02-06 15:11:34,438  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:11:35,288  INFO  Performing click on start using app
+2018-02-06 15:11:35,494  INFO  Performing click on Panel
+2018-02-06 15:11:39,713  INFO  Performing click on name
+2018-02-06 15:12:07,665  INFO  Starting the scenario...
+2018-02-06 15:12:07,783  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:12:09,322  INFO  Performing click on start using app
+2018-02-06 15:12:09,657  INFO  Performing click on Panel
+2018-02-06 15:12:13,867  INFO  Performing click on name
+2018-02-06 15:12:15,976  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:12:16,059  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:12:18,234  INFO  Performing click on Panel
+2018-02-06 15:12:22,412  INFO  Performing click on name
+2018-02-06 15:12:24,490  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:12:24,563  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:12:26,731  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:12:26,821  INFO  Performing drag and drop
+2018-02-06 15:12:29,040  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:12:29,080  INFO  Performing click on Confirm
+2018-02-06 15:12:31,369  INFO  Killing the app
+2018-02-06 15:12:31,470  INFO  Starting the scenario...
+2018-02-06 15:12:31,521  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:12:32,417  INFO  Performing click on start using app
+2018-02-06 15:12:32,652  INFO  Performing click on Panel
+2018-02-06 15:12:36,843  INFO  Performing click on name
+2018-02-06 15:12:38,950  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:12:39,045  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:12:41,236  INFO  Performing click on Panel
+2018-02-06 15:24:47,281  INFO  Starting the scenario...
+2018-02-06 15:24:47,416  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:24:49,144  INFO  Performing click on start using app
+2018-02-06 15:24:49,467  INFO  Performing click on Panel
+2018-02-06 15:24:53,649  INFO  Performing click on name
+2018-02-06 15:24:55,758  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:24:55,845  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:24:58,039  INFO  Performing click on Panel
+2018-02-06 15:25:02,281  INFO  Performing click on name
+2018-02-06 15:25:04,360  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:25:04,431  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:25:06,615  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:25:06,683  INFO  Performing drag and drop
+2018-02-06 15:25:08,887  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:25:08,929  INFO  Performing click on Confirm
+2018-02-06 15:25:09,275  INFO  Killing the app
+2018-02-06 15:25:09,363  INFO  Starting the scenario...
+2018-02-06 15:25:09,430  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:25:10,447  INFO  Performing click on start using app
+2018-02-06 15:25:10,675  INFO  Performing click on Panel
+2018-02-06 15:25:14,883  INFO  Performing click on name
+2018-02-06 15:25:39,847  INFO  Starting the scenario...
+2018-02-06 15:25:39,932  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:25:41,325  INFO  Performing click on start using app
+2018-02-06 15:25:41,659  INFO  Performing click on Panel
+2018-02-06 15:25:45,849  INFO  Performing click on name
+2018-02-06 15:25:47,957  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:25:48,037  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:25:50,229  INFO  Performing click on Panel
+2018-02-06 15:25:54,414  INFO  Performing click on name
+2018-02-06 15:25:56,483  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:25:56,556  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:25:58,729  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:25:58,800  INFO  Performing drag and drop
+2018-02-06 15:26:01,047  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:26:01,093  INFO  Performing click on Confirm
+2018-02-06 15:26:01,479  INFO  Killing the app
+2018-02-06 15:26:01,546  INFO  Starting the scenario...
+2018-02-06 15:26:01,581  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:26:02,381  INFO  Performing click on start using app
+2018-02-06 15:26:02,611  INFO  Performing click on Panel
+2018-02-06 15:26:06,804  INFO  Performing click on name
+2018-02-06 15:26:08,888  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:26:08,972  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:26:11,152  INFO  Performing click on Panel
+2018-02-06 15:26:15,342  INFO  Performing click on name
+2018-02-06 15:26:17,409  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:26:17,486  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:26:19,650  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:26:19,716  INFO  Performing drag and drop
+2018-02-06 15:26:21,944  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:26:21,955  INFO  Performing click on Confirm
+2018-02-06 15:26:22,276  INFO  Killing the app
+2018-02-06 15:26:22,340  INFO  Starting the scenario...
+2018-02-06 15:26:22,379  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:26:23,206  INFO  Performing click on start using app
+2018-02-06 15:26:23,431  INFO  Performing click on Panel
+2018-02-06 15:26:27,621  INFO  Performing click on name
+2018-02-06 15:26:29,707  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:26:29,785  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:26:31,961  INFO  Performing click on Panel
+2018-02-06 15:26:36,139  INFO  Performing click on name
+2018-02-06 15:26:38,204  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:26:38,279  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:26:40,452  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:26:40,520  INFO  Performing drag and drop
+2018-02-06 15:26:42,731  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:26:42,738  INFO  Performing click on Confirm
+2018-02-06 15:26:42,939  INFO  Killing the app
+2018-02-06 15:37:29,794  INFO  Starting the scenario...
+2018-02-06 15:37:29,892  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:37:42,105  INFO  Performing click on start using app
+2018-02-06 15:37:42,641  INFO  Performing click on Panel
+2018-02-06 15:37:46,851  INFO  Performing click on name
+2018-02-06 15:37:48,989  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:37:49,092  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:37:51,314  INFO  Performing click on Panel
+2018-02-06 15:37:55,510  INFO  Performing click on name
+2018-02-06 15:37:57,578  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:37:57,651  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:37:59,839  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:37:59,902  INFO  Performing drag and drop
+2018-02-06 15:38:02,054  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:38:02,093  INFO  Performing click on Confirm
+2018-02-06 15:38:02,484  INFO  Killing the app
+2018-02-06 15:38:02,560  INFO  Starting the scenario...
+2018-02-06 15:38:02,601  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:38:03,444  INFO  Performing click on start using app
+2018-02-06 15:38:03,748  INFO  Performing click on Panel
+2018-02-06 15:38:07,959  INFO  Performing click on name
+2018-02-06 15:38:32,632  INFO  Starting the scenario...
+2018-02-06 15:38:32,715  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:38:33,836  INFO  Performing click on start using app
+2018-02-06 15:38:34,166  INFO  Performing click on Panel
+2018-02-06 15:38:38,495  INFO  Performing click on name
+2018-02-06 15:38:40,628  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:38:40,707  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:38:42,883  INFO  Performing click on Panel
+2018-02-06 15:38:47,086  INFO  Performing click on name
+2018-02-06 15:38:49,159  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:38:49,232  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:38:51,398  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:38:51,479  INFO  Performing drag and drop
+2018-02-06 15:38:53,647  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:38:53,690  INFO  Performing click on Confirm
+2018-02-06 15:38:54,033  INFO  Killing the app
+2018-02-06 15:38:54,111  INFO  Starting the scenario...
+2018-02-06 15:38:54,145  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:38:55,175  INFO  Performing click on start using app
+2018-02-06 15:38:55,423  INFO  Performing click on Panel
+2018-02-06 15:38:59,602  INFO  Performing click on name
+2018-02-06 15:39:01,695  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:39:01,803  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:39:04,039  INFO  Performing click on Panel
+2018-02-06 15:46:07,958  INFO  Starting the scenario...
+2018-02-06 15:46:08,040  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:46:09,610  INFO  Performing click on start using app
+2018-02-06 15:46:09,979  INFO  Performing click on Panel
+2018-02-06 15:46:14,177  INFO  Performing click on name
+2018-02-06 15:46:16,306  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:46:16,382  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:46:18,581  INFO  Performing click on Panel
+2018-02-06 15:46:22,786  INFO  Performing click on name
+2018-02-06 15:46:24,859  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:46:24,929  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:46:27,107  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:46:27,173  INFO  Performing drag and drop
+2018-02-06 15:46:29,327  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:46:29,370  INFO  Performing click on Confirm
+2018-02-06 15:46:29,742  INFO  Killing the app
+2018-02-06 15:46:29,853  INFO  Starting the scenario...
+2018-02-06 15:46:29,922  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:46:30,706  INFO  Performing click on start using app
+2018-02-06 15:46:30,943  INFO  Performing click on Panel
+2018-02-06 15:46:35,124  INFO  Performing click on name
+2018-02-06 15:46:52,101  INFO  Starting the scenario...
+2018-02-06 15:46:52,189  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:46:53,324  INFO  Performing click on start using app
+2018-02-06 15:46:53,629  INFO  Performing click on Panel
+2018-02-06 15:46:57,808  INFO  Performing click on name
+2018-02-06 15:46:59,919  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 15:46:59,991  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:47:02,170  INFO  Performing click on Panel
+2018-02-06 15:47:06,354  INFO  Performing click on name
+2018-02-06 15:47:08,431  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 15:47:08,518  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 15:47:10,715  INFO  List Item file1 is found, getting clickable point
+2018-02-06 15:47:10,794  INFO  Performing drag and drop
+2018-02-06 15:47:12,953  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 15:47:13,008  INFO  Performing click on Confirm
+2018-02-06 15:47:13,429  INFO  Killing the app
+2018-02-06 15:47:13,537  INFO  Starting the scenario...
+2018-02-06 15:47:13,599  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 15:47:14,710  INFO  Performing click on start using app
+2018-02-06 15:47:15,005  INFO  Performing click on Panel
+2018-02-06 15:47:19,300  INFO  Performing click on name
+2018-02-06 16:12:58,669  INFO  Starting the scenario...
+2018-02-06 16:12:58,886  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:13:00,782  INFO  Performing click on start using app
+2018-02-06 16:13:01,256  INFO  Performing click on Panel
+2018-02-06 16:13:05,439  INFO  Performing click on name
+2018-02-06 16:13:07,570  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:13:07,680  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:13:09,973  INFO  Performing click on Panel
+2018-02-06 16:13:14,192  INFO  Performing click on name
+2018-02-06 16:13:16,258  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:13:16,331  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:13:18,571  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:13:18,631  INFO  Performing drag and drop
+2018-02-06 16:13:20,838  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:13:20,882  INFO  Performing click on Confirm
+2018-02-06 16:13:21,113  INFO  List Item file1 is found, right clicking
+2018-02-06 16:13:22,133  INFO  Selecting property Cut
+2018-02-06 16:13:27,726  INFO  Killing the app
+2018-02-06 16:13:27,843  INFO  Starting the scenario...
+2018-02-06 16:13:27,885  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:13:28,946  INFO  Performing click on start using app
+2018-02-06 16:13:29,143  INFO  Performing click on Panel
+2018-02-06 16:13:33,349  INFO  Performing click on name
+2018-02-06 16:13:57,375  INFO  Starting the scenario...
+2018-02-06 16:13:57,455  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:13:58,569  INFO  Performing click on start using app
+2018-02-06 16:13:58,887  INFO  Performing click on Panel
+2018-02-06 16:14:03,084  INFO  Performing click on name
+2018-02-06 16:14:05,194  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:14:05,287  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:14:07,463  INFO  Performing click on Panel
+2018-02-06 16:14:11,627  INFO  Performing click on name
+2018-02-06 16:14:13,705  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:14:13,775  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:14:15,940  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:14:15,997  INFO  Performing drag and drop
+2018-02-06 16:14:18,141  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:14:18,187  INFO  Performing click on Confirm
+2018-02-06 16:14:18,361  INFO  List Item file1 is found, right clicking
+2018-02-06 16:14:19,381  INFO  Selecting property Cut
+2018-02-06 16:14:20,405  INFO  Selecting property Paste in context menu
+2018-02-06 16:14:33,489  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=Replace the file in the destination,ControlType=button
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 16:14:33,490  INFO  Performing click on Replace
+2018-02-06 16:14:33,619  INFO  Killing the app
+2018-02-06 16:14:33,698  INFO  Starting the scenario...
+2018-02-06 16:14:33,726  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:14:34,574  INFO  Performing click on start using app
+2018-02-06 16:14:34,793  INFO  Performing click on Panel
+2018-02-06 16:14:38,973  INFO  Performing click on name
+2018-02-06 16:14:41,065  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:14:41,148  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:14:43,313  INFO  Performing click on Panel
+2018-02-06 16:14:47,489  INFO  Performing click on name
+2018-02-06 16:14:49,557  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:14:49,629  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:14:51,806  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:14:51,866  INFO  Performing drag and drop
+2018-02-06 16:14:54,038  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:14:54,046  INFO  Performing click on Confirm
+2018-02-06 16:14:54,282  INFO  Killing the app
+2018-02-06 16:14:54,340  INFO  Starting the scenario...
+2018-02-06 16:14:54,378  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:14:55,199  INFO  Performing click on start using app
+2018-02-06 16:14:55,442  INFO  Performing click on Panel
+2018-02-06 16:14:59,617  INFO  Performing click on name
+2018-02-06 16:15:01,700  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:15:01,776  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:15:03,940  INFO  Performing click on Panel
+2018-02-06 16:15:08,123  INFO  Performing click on name
+2018-02-06 16:15:10,190  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:15:10,267  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:15:12,429  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:15:12,495  INFO  Performing drag and drop
+2018-02-06 16:15:14,672  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:15:14,682  INFO  Performing click on Confirm
+2018-02-06 16:15:14,853  INFO  Killing the app
+2018-02-06 16:16:44,507  INFO  Starting the scenario...
+2018-02-06 16:16:44,589  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:16:45,706  INFO  Performing click on start using app
+2018-02-06 16:16:46,026  INFO  Performing click on Panel
+2018-02-06 16:16:50,246  INFO  Performing click on name
+2018-02-06 16:16:52,349  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:16:52,419  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:16:54,588  INFO  Performing click on Panel
+2018-02-06 16:16:58,813  INFO  Performing click on name
+2018-02-06 16:17:00,887  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:17:00,964  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:17:03,165  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:17:03,231  INFO  Performing drag and drop
+2018-02-06 16:17:05,398  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:17:05,437  INFO  Performing click on Confirm
+2018-02-06 16:17:05,614  INFO  List Item file1 is found, right clicking
+2018-02-06 16:17:06,648  INFO  Selecting property Cut
+2018-02-06 16:17:06,976  INFO  Selecting property Paste in context menu
+2018-02-06 16:17:19,457  INFO  Element is not found: TestStack.White.AutomationException: Failed to get (ControlType=button or ControlType=check box),Name=Replace the file in the destination,ControlType=button
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 16:17:19,458  INFO  Performing click on Replace
+2018-02-06 16:17:19,610  INFO  Killing the app
+2018-02-06 16:17:19,704  INFO  Starting the scenario...
+2018-02-06 16:17:19,746  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:17:20,754  INFO  Performing click on start using app
+2018-02-06 16:17:21,012  INFO  Performing click on Panel
+2018-02-06 16:17:25,256  INFO  Performing click on name
+2018-02-06 16:18:36,897  INFO  Starting the scenario...
+2018-02-06 16:18:36,977  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:18:38,008  INFO  Performing click on start using app
+2018-02-06 16:18:38,320  INFO  Performing click on Panel
+2018-02-06 16:18:42,494  INFO  Performing click on name
+2018-02-06 16:18:44,608  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:18:44,682  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:18:46,847  INFO  Performing click on Panel
+2018-02-06 16:18:51,024  INFO  Performing click on name
+2018-02-06 16:18:53,091  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:18:53,175  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:18:55,335  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:18:55,400  INFO  Performing drag and drop
+2018-02-06 16:18:57,541  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:18:57,595  INFO  Performing click on Confirm
+2018-02-06 16:18:57,788  INFO  List Item file1 is found, right clicking
+2018-02-06 16:18:57,987  INFO  Killing the app
+2018-02-06 16:18:58,077  INFO  Starting the scenario...
+2018-02-06 16:18:58,112  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:18:58,939  INFO  Performing click on start using app
+2018-02-06 16:18:59,156  INFO  Performing click on Panel
+2018-02-06 16:19:03,384  INFO  Performing click on name
+2018-02-06 16:19:32,884  INFO  Starting the scenario...
+2018-02-06 16:19:32,977  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:19:33,994  INFO  Performing click on start using app
+2018-02-06 16:19:34,310  INFO  Performing click on Panel
+2018-02-06 16:19:38,506  INFO  Performing click on name
+2018-02-06 16:19:40,626  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:19:40,709  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:19:42,902  INFO  Performing click on Panel
+2018-02-06 16:19:47,075  INFO  Performing click on name
+2018-02-06 16:19:49,140  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:19:49,212  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:19:51,378  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:19:51,449  INFO  Performing drag and drop
+2018-02-06 16:19:53,628  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:19:53,671  INFO  Performing click on Confirm
+2018-02-06 16:19:53,831  INFO  List Item file1 is found, right clicking
+2018-02-06 16:19:53,992  INFO  Killing the app
+2018-02-06 16:19:54,059  INFO  Starting the scenario...
+2018-02-06 16:19:54,089  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:19:54,941  INFO  Performing click on start using app
+2018-02-06 16:19:55,125  INFO  Performing click on Panel
+2018-02-06 16:19:59,316  INFO  Performing click on name
+2018-02-06 16:20:01,385  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:20:01,462  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:20:03,659  INFO  Performing click on Panel
+2018-02-06 16:20:07,825  INFO  Performing click on name
+2018-02-06 16:20:09,901  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:20:09,971  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:20:12,130  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:20:12,200  INFO  Performing drag and drop
+2018-02-06 16:20:14,361  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:20:14,369  INFO  Performing click on Confirm
+2018-02-06 16:20:14,541  INFO  Killing the app
+2018-02-06 16:20:14,594  INFO  Starting the scenario...
+2018-02-06 16:20:14,628  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:20:15,922  INFO  Performing click on start using app
+2018-02-06 16:20:16,148  INFO  Performing click on Panel
+2018-02-06 16:20:20,325  INFO  Performing click on name
+2018-02-06 16:20:22,405  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:20:22,483  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:20:24,646  INFO  Performing click on Panel
+2018-02-06 16:20:28,830  INFO  Performing click on name
+2018-02-06 16:20:30,893  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:20:30,961  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:20:33,120  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:20:33,182  INFO  Performing drag and drop
+2018-02-06 16:20:35,348  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:20:35,355  INFO  Performing click on Confirm
+2018-02-06 16:20:35,519  INFO  Killing the app
+2018-02-06 16:22:56,938  INFO  Starting the scenario...
+2018-02-06 16:22:57,018  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:22:57,977  INFO  Performing click on start using app
+2018-02-06 16:22:58,315  INFO  Performing click on Panel
+2018-02-06 16:23:02,511  INFO  Performing click on name
+2018-02-06 16:23:04,627  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:23:04,715  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:23:06,905  INFO  Performing click on Panel
+2018-02-06 16:23:11,056  INFO  Performing click on name
+2018-02-06 16:23:13,121  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:23:13,195  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:23:15,359  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:23:15,415  INFO  Performing drag and drop
+2018-02-06 16:23:17,584  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:23:17,627  INFO  Performing click on Confirm
+2018-02-06 16:23:17,812  INFO  List Item file1 is found, right clicking
+2018-02-06 16:23:17,974  INFO  Killing the app
+2018-02-06 16:23:18,061  INFO  Starting the scenario...
+2018-02-06 16:23:18,095  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:23:18,996  INFO  Performing click on start using app
+2018-02-06 16:23:19,223  INFO  Performing click on Panel
+2018-02-06 16:23:23,442  INFO  Performing click on name
+2018-02-06 16:23:47,872  INFO  Starting the scenario...
+2018-02-06 16:23:47,953  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:23:48,919  INFO  Performing click on start using app
+2018-02-06 16:23:49,217  INFO  Performing click on Panel
+2018-02-06 16:23:53,421  INFO  Performing click on name
+2018-02-06 16:23:55,527  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:23:55,602  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:23:57,787  INFO  Performing click on Panel
+2018-02-06 16:24:01,962  INFO  Performing click on name
+2018-02-06 16:24:04,041  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:24:04,116  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:24:06,289  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:24:06,348  INFO  Performing drag and drop
+2018-02-06 16:24:08,516  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:24:08,554  INFO  Performing click on Confirm
+2018-02-06 16:24:08,736  INFO  List Item file1 is found, right clicking
+2018-02-06 16:24:08,896  INFO  Killing the app
+2018-02-06 16:24:08,978  INFO  Starting the scenario...
+2018-02-06 16:24:09,026  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:24:10,093  INFO  Performing click on start using app
+2018-02-06 16:24:10,305  INFO  Performing click on Panel
+2018-02-06 16:24:14,495  INFO  Performing click on name
+2018-02-06 16:24:16,571  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:24:16,644  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:24:18,802  INFO  Performing click on Panel
+2018-02-06 16:24:22,959  INFO  Performing click on name
+2018-02-06 16:24:25,020  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:24:25,097  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:24:27,259  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:24:27,317  INFO  Performing drag and drop
+2018-02-06 16:24:29,473  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:24:29,481  INFO  Performing click on Confirm
+2018-02-06 16:24:29,707  INFO  Killing the app
+2018-02-06 16:24:29,790  INFO  Starting the scenario...
+2018-02-06 16:24:29,841  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:24:31,412  INFO  Performing click on start using app
+2018-02-06 16:24:31,626  INFO  Performing click on Panel
+2018-02-06 16:24:36,268  INFO  Killing the app
+2018-02-06 16:25:37,276  INFO  Starting the scenario...
+2018-02-06 16:25:37,422  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:25:38,908  INFO  Performing click on start using app
+2018-02-06 16:25:39,318  INFO  Performing click on Panel
+2018-02-06 16:25:43,509  INFO  Performing click on name
+2018-02-06 16:25:45,801  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:25:45,889  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:25:48,099  INFO  Performing click on Panel
+2018-02-06 16:25:52,297  INFO  Performing click on name
+2018-02-06 16:25:54,385  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:25:54,470  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:25:56,652  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:25:56,720  INFO  Performing drag and drop
+2018-02-06 16:25:58,865  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:25:58,925  INFO  Performing click on Confirm
+2018-02-06 16:27:25,778  INFO  List Item file1 is found, right clicking
+2018-02-06 16:29:07,481  INFO  Starting the scenario...
+2018-02-06 16:29:07,564  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:29:08,834  INFO  Performing click on start using app
+2018-02-06 16:29:09,183  INFO  Performing click on Panel
+2018-02-06 16:29:13,364  INFO  Performing click on name
+2018-02-06 16:29:15,488  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:29:15,567  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:29:17,735  INFO  Performing click on Panel
+2018-02-06 16:29:21,915  INFO  Performing click on name
+2018-02-06 16:29:23,993  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:29:24,065  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:29:26,232  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:29:26,301  INFO  Performing drag and drop
+2018-02-06 16:29:28,442  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:29:28,484  INFO  Performing click on Confirm
+2018-02-06 16:29:28,649  INFO  List Item file1 is found, right clicking
+2018-02-06 16:29:29,669  INFO  Selecting property Cut
+2018-02-06 16:29:30,009  INFO  Selecting property Paste in context menu
+2018-02-06 16:29:31,701  INFO  Performing click on Replace
+2018-02-06 16:29:43,022  INFO  Finding file file1 on right panel
+2018-02-06 16:29:48,111  INFO  Finding file file1 on left panel
+2018-02-06 16:29:48,193  INFO  Selecting System.String[] in Main app menu
+2018-02-06 16:30:04,371  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 16:30:04,372  INFO  Object reference not set to an instance of an object.
+2018-02-06 16:30:04,400  INFO  Performing click on Panel
+2018-02-06 16:30:05,943  INFO  Getting selected tab name from  tab
+2018-02-06 16:30:07,877  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 16:30:08,387  INFO  Performing click on RegEx
+2018-02-06 16:30:09,505  INFO  Performing click on Start search
+2018-02-06 16:30:12,082  INFO  Performing click on Close Window
+2018-02-06 16:30:12,938  INFO  Killing the app
+2018-02-06 16:30:55,330  INFO  Starting the scenario...
+2018-02-06 16:30:55,411  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:30:56,544  INFO  Performing click on start using app
+2018-02-06 16:30:56,841  INFO  Performing click on Panel
+2018-02-06 16:31:01,021  INFO  Performing click on name
+2018-02-06 16:31:03,129  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:31:03,200  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:31:05,375  INFO  Performing click on Panel
+2018-02-06 16:31:09,563  INFO  Performing click on name
+2018-02-06 16:31:11,630  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:31:11,711  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:31:13,897  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:31:13,950  INFO  Performing drag and drop
+2018-02-06 16:31:16,101  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:31:16,145  INFO  Performing click on Confirm
+2018-02-06 16:31:16,350  INFO  List Item file1 is found, right clicking
+2018-02-06 16:31:16,547  INFO  Killing the app
+2018-02-06 16:31:16,643  INFO  Starting the scenario...
+2018-02-06 16:31:16,694  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:31:17,469  INFO  Performing click on start using app
+2018-02-06 16:31:17,704  INFO  Performing click on Panel
+2018-02-06 16:31:21,891  INFO  Performing click on name
+2018-02-06 16:47:25,090  INFO  Starting the scenario...
+2018-02-06 16:47:25,626  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 16:47:28,579  INFO  Performing click on start using app
+2018-02-06 16:47:29,078  INFO  Performing click on Panel
+2018-02-06 16:47:33,253  INFO  Performing click on name
+2018-02-06 16:47:35,386  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 16:47:35,461  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:47:37,615  INFO  Performing click on Panel
+2018-02-06 16:47:44,062  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 16:47:44,105  INFO  Performing click on Panel
+2018-02-06 16:47:48,305  INFO  Performing click on name
+2018-02-06 16:47:50,372  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 16:47:50,443  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 16:47:52,595  INFO  Performing click on Panel
+2018-02-06 16:47:58,431  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 16:47:58,461  INFO  List Item file1 is found, getting clickable point
+2018-02-06 16:47:58,535  INFO  Performing drag and drop
+2018-02-06 16:48:00,707  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 16:48:00,741  INFO  Performing click on Confirm
+2018-02-06 16:48:06,003  INFO  Finding file file1 on right panel
+2018-02-06 16:48:11,090  INFO  Finding file file1 on left panel
+2018-02-06 16:48:11,126  INFO  List Item file1 is found, right clicking
+2018-02-06 16:48:12,156  INFO  Selecting property Cut
+2018-02-06 16:48:13,473  INFO  Selecting property Paste in context menu
+2018-02-06 16:48:15,430  INFO  Performing click on Replace
+2018-02-06 16:48:27,226  INFO  Finding file file1 on right panel
+2018-02-06 16:48:32,312  INFO  Finding file file1 on left panel
+2018-02-06 16:48:32,393  INFO  Selecting System.String[] in Main app menu
+2018-02-06 16:48:48,082  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 16:48:48,083  INFO  Object reference not set to an instance of an object.
+2018-02-06 16:48:48,123  INFO  Performing click on Panel
+2018-02-06 16:48:49,690  INFO  Getting selected tab name from  tab
+2018-02-06 16:48:51,432  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 16:48:51,905  INFO  Performing click on RegEx
+2018-02-06 16:48:53,020  INFO  Performing click on Start search
+2018-02-06 16:48:55,458  INFO  Performing click on Close Window
+2018-02-06 16:48:55,953  INFO  Killing the app
+2018-02-06 17:19:25,133  INFO  Starting the scenario...
+2018-02-06 17:19:25,281  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:19:27,356  INFO  Performing click on start using app
+2018-02-06 17:19:27,754  INFO  Performing click on Panel
+2018-02-06 17:19:31,940  INFO  Performing click on name
+2018-02-06 17:19:34,078  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 17:19:34,179  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:19:36,461  INFO  Performing click on Panel
+2018-02-06 17:19:42,445  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:19:42,496  INFO  Performing click on Panel
+2018-02-06 17:19:46,692  INFO  Performing click on name
+2018-02-06 17:19:48,768  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 17:19:48,854  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:19:51,004  INFO  Performing click on Panel
+2018-02-06 17:19:56,962  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:19:57,002  INFO  List Item file1 is found, getting clickable point
+2018-02-06 17:19:57,064  INFO  Performing drag and drop
+2018-02-06 17:19:59,223  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 17:19:59,260  INFO  Performing click on Confirm
+2018-02-06 17:20:04,521  INFO  Finding file file1 on right panel
+2018-02-06 17:20:09,607  INFO  Finding file file1 on left panel
+2018-02-06 17:20:09,639  INFO  List Item file1 is found, right clicking
+2018-02-06 17:20:10,664  INFO  Selecting property Cut
+2018-02-06 17:20:11,687  INFO  Selecting property Paste in context menu
+2018-02-06 17:20:13,654  INFO  Performing click on Replace
+2018-02-06 17:20:24,986  INFO  Finding file file1 on right panel
+2018-02-06 17:20:30,079  INFO  Finding file file1 on left panel
+2018-02-06 17:20:30,288  INFO  Killing the app
+2018-02-06 17:20:30,399  INFO  Starting the scenario...
+2018-02-06 17:20:30,459  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:20:31,389  INFO  Performing click on start using app
+2018-02-06 17:20:31,597  INFO  Performing click on Panel
+2018-02-06 17:20:35,805  INFO  Performing click on name
+2018-02-06 17:20:37,884  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 17:20:37,955  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:20:40,111  INFO  Performing click on Panel
+2018-02-06 17:20:46,178  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:20:46,218  INFO  Performing click on Panel
+2018-02-06 17:20:50,422  INFO  Performing click on name
+2018-02-06 17:20:52,504  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 17:20:52,578  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:20:54,735  INFO  Performing click on Panel
+2018-02-06 17:21:00,676  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:21:00,710  INFO  List Item file1 is found, getting clickable point
+2018-02-06 17:21:00,815  INFO  Performing drag and drop
+2018-02-06 17:24:14,192  INFO  Starting the scenario...
+2018-02-06 17:24:14,273  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:24:15,417  INFO  Performing click on start using app
+2018-02-06 17:24:15,744  INFO  Performing click on Panel
+2018-02-06 17:24:19,929  INFO  Performing click on name
+2018-02-06 17:24:22,044  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 17:24:22,125  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:24:24,281  INFO  Performing click on Panel
+2018-02-06 17:24:30,356  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:24:30,397  INFO  Performing click on Panel
+2018-02-06 17:24:34,581  INFO  Performing click on name
+2018-02-06 17:24:36,663  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 17:24:36,745  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:24:38,908  INFO  Performing click on Panel
+2018-02-06 17:24:44,864  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:24:44,900  INFO  List Item file1 is found, getting clickable point
+2018-02-06 17:24:44,966  INFO  Performing drag and drop
+2018-02-06 17:24:47,152  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 17:24:47,195  INFO  Performing click on Confirm
+2018-02-06 17:24:52,428  INFO  Finding file file1 on right panel
+2018-02-06 17:24:57,519  INFO  Finding file file1 on left panel
+2018-02-06 17:24:57,551  INFO  List Item file1 is found, right clicking
+2018-02-06 17:24:58,582  INFO  Selecting property Cut
+2018-02-06 17:24:58,912  INFO  Selecting property Paste in context menu
+2018-02-06 17:25:00,627  INFO  Performing click on Replace
+2018-02-06 17:25:12,046  INFO  Finding file file1 on right panel
+2018-02-06 17:25:17,140  INFO  Finding file file1 on left panel
+2018-02-06 17:25:17,227  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:25:32,586  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:25:32,587  INFO  Object reference not set to an instance of an object.
+2018-02-06 17:25:32,617  INFO  Performing click on Panel
+2018-02-06 17:25:34,680  INFO  Getting selected tab name from  tab
+2018-02-06 17:25:36,393  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 17:25:36,893  INFO  Performing click on RegEx
+2018-02-06 17:25:38,020  INFO  Performing click on Start search
+2018-02-06 17:25:40,573  INFO  Performing click on Close Window
+2018-02-06 17:25:41,114  INFO  Item .. is found on left panel
+2018-02-06 17:25:41,244  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:25:42,289  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 17:25:42,476  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:25:43,971  INFO  Killing the app
+2018-02-06 17:36:03,953  INFO  Starting the scenario...
+2018-02-06 17:36:04,035  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:36:05,477  INFO  Performing click on start using app
+2018-02-06 17:36:05,781  INFO  Performing click on Panel
+2018-02-06 17:36:09,970  INFO  Performing click on name
+2018-02-06 17:36:12,086  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 17:36:12,164  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:36:14,344  INFO  Performing click on Panel
+2018-02-06 17:36:20,328  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:36:20,360  INFO  Performing click on Panel
+2018-02-06 17:36:24,533  INFO  Performing click on name
+2018-02-06 17:36:26,608  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 17:36:26,696  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:36:28,882  INFO  Performing click on Panel
+2018-02-06 17:36:34,802  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:36:34,836  INFO  List Item file1 is found, getting clickable point
+2018-02-06 17:36:34,901  INFO  Performing drag and drop
+2018-02-06 17:36:37,052  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 17:36:37,090  INFO  Performing click on Confirm
+2018-02-06 17:36:42,324  INFO  Finding file file1 on right panel
+2018-02-06 17:36:47,406  INFO  Finding file file1 on left panel
+2018-02-06 17:36:47,447  INFO  List Item file1 is found, right clicking
+2018-02-06 17:36:48,469  INFO  Selecting property Cut
+2018-02-06 17:36:48,804  INFO  Selecting property Paste in context menu
+2018-02-06 17:36:50,519  INFO  Performing click on Replace
+2018-02-06 17:37:01,916  INFO  Finding file file1 on right panel
+2018-02-06 17:37:07,003  INFO  Finding file file1 on left panel
+2018-02-06 17:37:07,082  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:37:21,247  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:37:21,247  INFO  Object reference not set to an instance of an object.
+2018-02-06 17:37:21,277  INFO  Performing click on Panel
+2018-02-06 17:37:22,776  INFO  Getting selected tab name from  tab
+2018-02-06 17:37:24,494  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 17:37:24,998  INFO  Performing click on RegEx
+2018-02-06 17:37:26,116  INFO  Performing click on Start search
+2018-02-06 17:37:28,484  INFO  Performing click on Close Window
+2018-02-06 17:37:28,994  INFO  Item .. is found on left panel
+2018-02-06 17:37:29,099  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:37:30,265  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 17:38:01,286  INFO  Killing the app
+2018-02-06 17:38:01,362  INFO  Starting the scenario...
+2018-02-06 17:38:01,402  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:38:02,298  INFO  Performing click on start using app
+2018-02-06 17:38:02,528  INFO  Performing click on Panel
+2018-02-06 17:38:06,698  INFO  Performing click on name
+2018-02-06 17:49:39,143  INFO  Starting the scenario...
+2018-02-06 17:49:39,232  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:49:40,290  INFO  Performing click on start using app
+2018-02-06 17:49:40,595  INFO  Performing click on Panel
+2018-02-06 17:49:44,791  INFO  Performing click on name
+2018-02-06 17:49:46,899  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 17:49:46,970  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:49:49,129  INFO  Performing click on Panel
+2018-02-06 17:49:54,944  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:49:54,989  INFO  Performing click on Panel
+2018-02-06 17:49:59,151  INFO  Performing click on name
+2018-02-06 17:50:01,234  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 17:50:01,313  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 17:50:03,465  INFO  Performing click on Panel
+2018-02-06 17:50:09,362  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:50:09,402  INFO  List Item file1 is found, getting clickable point
+2018-02-06 17:50:09,472  INFO  Performing drag and drop
+2018-02-06 17:50:11,623  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 17:50:11,660  INFO  Performing click on Confirm
+2018-02-06 17:50:16,898  INFO  Finding file file1 on right panel
+2018-02-06 17:50:21,984  INFO  Finding file file1 on left panel
+2018-02-06 17:50:22,017  INFO  List Item file1 is found, right clicking
+2018-02-06 17:50:23,038  INFO  Selecting property Cut
+2018-02-06 17:50:23,369  INFO  Selecting property Paste in context menu
+2018-02-06 17:50:25,067  INFO  Performing click on Replace
+2018-02-06 17:50:36,413  INFO  Finding file file1 on right panel
+2018-02-06 17:50:41,513  INFO  Finding file file1 on left panel
+2018-02-06 17:50:41,599  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:50:55,779  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 17:50:55,780  INFO  Object reference not set to an instance of an object.
+2018-02-06 17:50:55,818  INFO  Performing click on Panel
+2018-02-06 17:50:57,305  INFO  Getting selected tab name from  tab
+2018-02-06 17:50:59,038  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 17:50:59,521  INFO  Performing click on RegEx
+2018-02-06 17:51:00,656  INFO  Performing click on Start search
+2018-02-06 17:51:03,071  INFO  Performing click on Close Window
+2018-02-06 17:51:03,572  INFO  Item .. is found on left panel
+2018-02-06 17:51:03,691  INFO  Selecting System.String[] in Main app menu
+2018-02-06 17:51:04,848  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 17:51:35,565  INFO  Killing the app
+2018-02-06 17:51:35,672  INFO  Starting the scenario...
+2018-02-06 17:51:35,720  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 17:51:36,655  INFO  Performing click on start using app
+2018-02-06 17:51:36,889  INFO  Performing click on Panel
+2018-02-06 17:51:41,135  INFO  Performing click on name
+2018-02-06 18:07:56,310  INFO  Starting the scenario...
+2018-02-06 18:07:56,399  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 18:07:57,729  INFO  Performing click on start using app
+2018-02-06 18:07:58,034  INFO  Performing click on Panel
+2018-02-06 18:08:02,207  INFO  Performing click on name
+2018-02-06 18:08:04,324  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 18:08:04,404  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:08:04,553  INFO  Performing click on Panel
+2018-02-06 18:08:10,560  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:08:10,601  INFO  Performing click on Panel
+2018-02-06 18:08:14,782  INFO  Performing click on name
+2018-02-06 18:08:16,863  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 18:08:16,934  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:08:17,075  INFO  Performing click on Panel
+2018-02-06 18:08:22,908  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:08:22,940  INFO  List Item file1 is found, getting clickable point
+2018-02-06 18:08:23,015  INFO  Performing drag and drop
+2018-02-06 18:08:25,182  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 18:08:25,222  INFO  Performing click on Confirm
+2018-02-06 18:08:30,426  INFO  Finding file file1 on right panel
+2018-02-06 18:08:35,511  INFO  Finding file file1 on left panel
+2018-02-06 18:08:35,544  INFO  List Item file1 is found, right clicking
+2018-02-06 18:08:36,577  INFO  Selecting property Cut
+2018-02-06 18:08:36,904  INFO  Selecting property Paste in context menu
+2018-02-06 18:08:38,608  INFO  Performing click on Replace
+2018-02-06 18:08:49,922  INFO  Finding file file1 on right panel
+2018-02-06 18:08:55,015  INFO  Finding file file1 on left panel
+2018-02-06 18:08:55,098  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:09:08,774  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:09:08,775  INFO  Object reference not set to an instance of an object.
+2018-02-06 18:09:08,814  INFO  Performing click on Panel
+2018-02-06 18:09:10,213  INFO  Getting selected tab name from  tab
+2018-02-06 18:09:11,923  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 18:09:12,403  INFO  Performing click on RegEx
+2018-02-06 18:09:13,546  INFO  Performing click on Start search
+2018-02-06 18:09:15,904  INFO  Performing click on Close Window
+2018-02-06 18:09:16,399  INFO  Item .. is found on left panel
+2018-02-06 18:09:16,499  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:09:17,629  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 18:12:06,016  INFO  Starting the scenario...
+2018-02-06 18:12:06,109  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 18:12:07,234  INFO  Performing click on start using app
+2018-02-06 18:12:07,673  INFO  Performing click on Panel
+2018-02-06 18:12:11,844  INFO  Performing click on name
+2018-02-06 18:12:13,981  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 18:12:14,058  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:12:14,215  INFO  Performing click on Panel
+2018-02-06 18:12:20,254  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:12:20,297  INFO  Performing click on Panel
+2018-02-06 18:12:24,486  INFO  Performing click on name
+2018-02-06 18:12:26,572  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 18:12:26,642  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:12:26,775  INFO  Performing click on Panel
+2018-02-06 18:12:32,566  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:12:32,602  INFO  List Item file1 is found, getting clickable point
+2018-02-06 18:12:32,668  INFO  Performing drag and drop
+2018-02-06 18:12:34,830  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 18:12:34,866  INFO  Performing click on Confirm
+2018-02-06 18:12:40,093  INFO  Finding file file1 on right panel
+2018-02-06 18:12:45,164  INFO  Finding file file1 on left panel
+2018-02-06 18:12:45,192  INFO  List Item file1 is found, right clicking
+2018-02-06 18:12:46,212  INFO  Selecting property Cut
+2018-02-06 18:12:46,539  INFO  Selecting property Paste in context menu
+2018-02-06 18:12:48,254  INFO  Performing click on Replace
+2018-02-06 18:12:59,631  INFO  Finding file file1 on right panel
+2018-02-06 18:13:04,718  INFO  Finding file file1 on left panel
+2018-02-06 18:13:04,800  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:13:18,431  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:13:18,432  INFO  Object reference not set to an instance of an object.
+2018-02-06 18:13:18,466  INFO  Performing click on Panel
+2018-02-06 18:13:19,973  INFO  Getting selected tab name from  tab
+2018-02-06 18:13:21,708  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 18:13:22,192  INFO  Performing click on RegEx
+2018-02-06 18:13:23,304  INFO  Performing click on Start search
+2018-02-06 18:13:25,686  INFO  Performing click on Close Window
+2018-02-06 18:13:26,204  INFO  Item .. is found on left panel
+2018-02-06 18:13:26,308  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:13:27,454  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 18:13:27,625  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:13:29,004  INFO  Killing the app
+2018-02-06 18:18:53,026  INFO  Starting the scenario...
+2018-02-06 18:18:53,109  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 18:18:54,462  INFO  Performing click on start using app
+2018-02-06 18:18:54,893  INFO  Performing click on Panel
+2018-02-06 18:18:59,066  INFO  Performing click on name
+2018-02-06 18:19:01,186  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 18:19:01,265  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:19:01,434  INFO  Performing click on Panel
+2018-02-06 18:19:07,406  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:19:07,439  INFO  Performing click on Panel
+2018-02-06 18:19:11,624  INFO  Performing click on name
+2018-02-06 18:19:13,703  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 18:19:13,775  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:19:13,950  INFO  Performing click on Panel
+2018-02-06 18:19:19,809  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:19:19,845  INFO  List Item file1 is found, getting clickable point
+2018-02-06 18:19:19,916  INFO  Performing drag and drop
+2018-02-06 18:19:22,084  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 18:19:22,120  INFO  Performing click on Confirm
+2018-02-06 18:19:27,349  INFO  Finding file file1 on right panel
+2018-02-06 18:19:32,435  INFO  Finding file file1 on left panel
+2018-02-06 18:19:32,471  INFO  List Item file1 is found, right clicking
+2018-02-06 18:19:33,498  INFO  Selecting property Cut
+2018-02-06 18:19:33,826  INFO  Selecting property Paste in context menu
+2018-02-06 18:19:35,526  INFO  Performing click on Replace
+2018-02-06 18:19:47,057  INFO  Finding file file1 on right panel
+2018-02-06 18:19:52,136  INFO  Finding file file1 on left panel
+2018-02-06 18:19:52,212  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:20:06,281  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:20:06,281  INFO  Object reference not set to an instance of an object.
+2018-02-06 18:20:06,314  INFO  Performing click on Panel
+2018-02-06 18:20:07,766  INFO  Getting selected tab name from  tab
+2018-02-06 18:20:09,498  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 18:20:09,994  INFO  Performing click on RegEx
+2018-02-06 18:20:11,118  INFO  Performing click on Start search
+2018-02-06 18:20:13,489  INFO  Performing click on Close Window
+2018-02-06 18:20:14,002  INFO  Item .. is found on left panel
+2018-02-06 18:20:14,120  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:20:15,258  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 18:20:15,439  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:20:16,801  INFO  Killing the app
+2018-02-06 18:20:16,802  INFO  Scenario is finished.\n
+2018-02-06 18:21:49,678  INFO  Starting the scenario...
+2018-02-06 18:21:49,760  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 18:21:51,025  INFO  Performing click on start using app
+2018-02-06 18:21:51,358  INFO  Performing click on Panel
+2018-02-06 18:21:55,544  INFO  Performing click on name
+2018-02-06 18:21:57,658  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub3
+2018-02-06 18:21:57,733  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:21:57,875  INFO  Performing click on Panel
+2018-02-06 18:22:03,915  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:22:03,958  INFO  Performing click on Panel
+2018-02-06 18:22:08,123  INFO  Performing click on name
+2018-02-06 18:22:10,219  INFO  Setting value into TextBox — Edit path. Value for enter — C:\sub4
+2018-02-06 18:22:10,294  INFO  Sending key to — Edit path. Key for enter — RETURN
+2018-02-06 18:22:10,442  INFO  Performing click on Panel
+2018-02-06 18:22:16,292  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:22:16,321  INFO  List Item file1 is found, getting clickable point
+2018-02-06 18:22:16,392  INFO  Performing drag and drop
+2018-02-06 18:22:18,555  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 18:22:18,591  INFO  Performing click on Confirm
+2018-02-06 18:22:23,818  INFO  Finding file file1 on right panel
+2018-02-06 18:22:28,902  INFO  Finding file file1 on left panel
+2018-02-06 18:22:28,939  INFO  List Item file1 is found, right clicking
+2018-02-06 18:22:29,964  INFO  Selecting property Cut
+2018-02-06 18:22:30,294  INFO  Selecting property Paste in context menu
+2018-02-06 18:22:31,981  INFO  Performing click on Replace
+2018-02-06 18:22:43,502  INFO  Finding file file1 on right panel
+2018-02-06 18:22:48,598  INFO  Finding file file1 on left panel
+2018-02-06 18:22:48,682  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:23:02,713  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:23:02,714  INFO  Object reference not set to an instance of an object.
+2018-02-06 18:23:02,751  INFO  Performing click on Panel
+2018-02-06 18:23:04,160  INFO  Getting selected tab name from  tab
+2018-02-06 18:23:05,862  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 18:23:06,358  INFO  Performing click on RegEx
+2018-02-06 18:23:07,513  INFO  Performing click on Start search
+2018-02-06 18:23:09,912  INFO  Performing click on Close Window
+2018-02-06 18:23:10,440  INFO  Item .. is found on left panel
+2018-02-06 18:23:10,543  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:23:11,677  INFO  Performing click on Close 'edit comment' dialog
+2018-02-06 18:23:11,885  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:23:13,248  INFO  Killing the app
+2018-02-06 18:23:13,249  INFO  Scenario is finished. 
+
+2018-02-06 18:39:31,718  INFO  Starting the scenario...
+2018-02-06 18:39:31,800  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 18:39:33,224  INFO  Performing click on Castle.Proxies.ButtonProxy Button to start using app
+2018-02-06 18:39:33,556  INFO  Performing click on Castle.Proxies.ListBoxProxy File Panel
+2018-02-06 18:39:37,750  INFO  Performing click on TestStack.White.UIItems.Panel name
+2018-02-06 18:39:39,875  INFO  Setting value into Castle.Proxies.TextBoxProxy — Edit path. Value for enter — C:\sub3
+2018-02-06 18:39:39,952  INFO  Sending key to — Castle.Proxies.TextBoxProxy Edit path. Key for enter — RETURN
+2018-02-06 18:39:40,102  INFO  Performing click on Castle.Proxies.ListBoxProxy File Panel
+2018-02-06 18:39:46,174  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:39:46,217  INFO  Performing click on Castle.Proxies.ListBoxProxy File Panel
+2018-02-06 18:39:50,408  INFO  Performing click on TestStack.White.UIItems.Panel name
+2018-02-06 18:39:52,487  INFO  Setting value into Castle.Proxies.TextBoxProxy — Edit path. Value for enter — C:\sub4
+2018-02-06 18:39:52,559  INFO  Sending key to — Castle.Proxies.TextBoxProxy Edit path. Key for enter — RETURN
+2018-02-06 18:39:52,703  INFO  Performing click on Castle.Proxies.ListBoxProxy File Panel
+2018-02-06 18:39:58,601  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:39:58,636  INFO  List Item file1 is found, getting clickable point
+2018-02-06 18:39:58,702  INFO  Performing drag and drop
+2018-02-06 18:40:00,892  INFO  Total Commander (x64) 9.0a - NOT REGISTERED
+2018-02-06 18:40:00,934  INFO  Performing click on Castle.Proxies.ButtonProxy Confirm movement
+2018-02-06 18:40:06,182  INFO  Finding file file1 on right panel
+2018-02-06 18:40:11,261  INFO  Finding file file1 on left panel
+2018-02-06 18:40:11,290  INFO  List Item file1 is found, right clicking
+2018-02-06 18:40:12,318  INFO  Selecting property Cut
+2018-02-06 18:40:12,651  INFO  Selecting property Paste in context menu
+2018-02-06 18:40:14,367  INFO  Performing click on Castle.Proxies.ButtonProxy Replace
+2018-02-06 18:40:25,732  INFO  Finding file file1 on right panel
+2018-02-06 18:40:30,816  INFO  Finding file file1 on left panel
+2018-02-06 18:40:30,898  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:40:44,635  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 18:40:44,636  INFO  Object reference not set to an instance of an object.
+2018-02-06 18:40:44,665  INFO  Performing click on Castle.Proxies.ListBoxProxy File Panel
+2018-02-06 18:40:46,341  INFO  Getting selected tab name from  tab
+2018-02-06 18:40:48,065  INFO  Entering text into TextBox — Search for. Value for enter — file1
+2018-02-06 18:40:48,575  INFO  Performing click on Castle.Proxies.CheckBoxProxy RegEx
+2018-02-06 18:40:49,672  INFO  Performing click on Castle.Proxies.ButtonProxy Start search
+2018-02-06 18:40:52,112  INFO  Performing click on Castle.Proxies.ButtonProxy Close Window
+2018-02-06 18:40:52,629  INFO  Item .. is found on left panel
+2018-02-06 18:40:52,748  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:40:53,905  INFO  Performing click on Castle.Proxies.ButtonProxy Close 'edit comment' dialog
+2018-02-06 18:40:54,130  INFO  Selecting System.String[] in Main app menu
+2018-02-06 18:40:55,522  INFO  Killing the app
+2018-02-06 18:40:55,525  INFO  Scenario is finished. 
+
+2018-02-06 19:03:35,632  INFO  Starting the scenario...
+2018-02-06 19:03:35,722  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 19:03:36,847  INFO  Performing click on Button: Button to start using app
+2018-02-06 19:03:37,157  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:03:41,340  INFO  Performing click on New panel...
+2018-02-06 19:03:43,454  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub3
+2018-02-06 19:03:43,538  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:03:43,697  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:03:49,607  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:03:49,664  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:03:53,851  INFO  Performing click on New panel...
+2018-02-06 19:03:55,932  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub4
+2018-02-06 19:03:56,006  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:03:56,152  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:04:02,074  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:04:02,114  INFO  List Item file1 is found, getting clickable point
+2018-02-06 19:04:02,175  INFO  Performing drag and drop
+2018-02-06 19:04:04,398  INFO  Performing click on Button: Confirm movement
+2018-02-06 19:04:09,636  INFO  Finding file file1 on right panel
+2018-02-06 19:04:14,746  INFO  Finding file file1 on left panel
+2018-02-06 19:04:14,782  INFO  List Item file1 is found, right clicking
+2018-02-06 19:04:15,809  INFO  Selecting property Cut
+2018-02-06 19:04:16,137  INFO  Selecting property Paste in context menu
+2018-02-06 19:04:17,848  INFO  Performing click on Button: Replace
+2018-02-06 19:04:29,204  INFO  Finding file file1 on right panel
+2018-02-06 19:04:34,298  INFO  Finding file file1 on left panel
+2018-02-06 19:04:34,383  INFO  Selecting System.String[] in MenuBar: Main app menu
+2018-02-06 19:04:49,025  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:04:49,026  INFO  Object reference not set to an instance of an object.
+2018-02-06 19:04:49,064  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:04:50,587  INFO  Getting selected tab name from  tab
+2018-02-06 19:04:52,316  INFO  Entering text into TextBox — TextBox: Search for. Value for enter — file1
+2018-02-06 19:04:52,787  INFO  Performing click on CheckBox: RegEx
+2018-02-06 19:04:53,937  INFO  Performing click on Button: Start search
+2018-02-06 19:04:56,389  INFO  Performing click on Button: Close Window
+2018-02-06 19:04:56,902  INFO  Item .. is found on left panel
+2018-02-06 19:04:57,014  INFO  Selecting System.String[] in MenuBar: Main app menu
+2018-02-06 19:04:58,169  INFO  Performing click on Button: Close 'edit comment' dialog
+2018-02-06 19:04:58,389  INFO  Selecting System.String[] in MenuBar: Main app menu
+2018-02-06 19:04:59,794  INFO  Killing the app
+2018-02-06 19:04:59,795  INFO  Scenario is finished. 
+
+2018-02-06 19:14:09,437  INFO  Starting the scenario...
+2018-02-06 19:14:09,519  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 19:14:10,795  INFO  Performing click on Button: Button to start using app
+2018-02-06 19:14:11,273  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:14:15,460  INFO  Performing click on New panel...
+2018-02-06 19:14:17,579  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub3
+2018-02-06 19:14:17,659  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:14:17,803  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:14:23,873  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:14:23,914  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:14:28,132  INFO  Performing click on New panel...
+2018-02-06 19:14:30,217  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub4
+2018-02-06 19:14:30,297  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:14:30,473  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:14:36,411  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:14:36,450  INFO  List Item file1 is found, getting clickable point
+2018-02-06 19:14:36,513  INFO  Performing drag and drop
+2018-02-06 19:14:38,782  INFO  Performing click on Button: Confirm movement
+2018-02-06 19:14:44,023  INFO  Finding file file1 on right panel
+2018-02-06 19:14:49,108  INFO  Finding file file1 on left panel
+2018-02-06 19:14:49,147  INFO  List Item file1 is found, right clicking
+2018-02-06 19:14:50,177  INFO  Selecting property Cut
+2018-02-06 19:14:50,504  INFO  Selecting property Paste in context menu
+2018-02-06 19:14:52,225  INFO  Performing click on Button: Replace
+2018-02-06 19:15:03,603  INFO  Finding file file1 on right panel
+2018-02-06 19:15:08,692  INFO  Finding file file1 on left panel
+2018-02-06 19:15:08,773  INFO  Selecting Show => Separate Tree => 1 (One For Both Panels) =>  in MenuBar: Main app menu
+2018-02-06 19:15:22,755  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:15:22,756  INFO  Object reference not set to an instance of an object.
+2018-02-06 19:15:22,782  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:15:24,314  INFO  Getting selected tab name from  tab
+2018-02-06 19:15:26,055  INFO  Entering text into TextBox — TextBox: Search for. Value for enter — file1
+2018-02-06 19:15:26,534  INFO  Performing click on CheckBox: RegEx
+2018-02-06 19:15:27,680  INFO  Performing click on Button: Start search
+2018-02-06 19:15:30,133  INFO  Performing click on Button: Close Window
+2018-02-06 19:15:30,648  INFO  Item .. is found on left panel
+2018-02-06 19:15:30,755  INFO  Selecting Files => Edit Comment... =>  in MenuBar: Main app menu
+2018-02-06 19:15:31,856  INFO  Performing click on Button: Close 'edit comment' dialog
+2018-02-06 19:15:32,059  INFO  Selecting Files => Quit =>  in MenuBar: Main app menu
+2018-02-06 19:15:33,413  INFO  Killing the app
+2018-02-06 19:15:33,414  INFO  Scenario is finished. 
+
+2018-02-06 19:28:07,541  INFO  Starting the scenario...
+2018-02-06 19:28:07,627  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 19:28:09,036  INFO  Performing click on Button: Button to start using app
+2018-02-06 19:28:09,360  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:28:13,564  INFO  Performing click on New panel...
+2018-02-06 19:28:15,673  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub3
+2018-02-06 19:28:15,760  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:28:15,914  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:28:21,976  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:28:22,016  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:28:26,200  INFO  Performing click on New panel...
+2018-02-06 19:28:28,270  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub4
+2018-02-06 19:28:28,342  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:28:28,487  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:28:34,438  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:28:34,479  INFO  List Item file1 is found, getting clickable point
+2018-02-06 19:28:34,549  INFO  Performing drag and drop
+2018-02-06 19:28:36,804  INFO  Performing click on Button: Confirm movement
+2018-02-06 19:28:42,048  INFO  Finding file file1 on right panel
+2018-02-06 19:28:47,130  INFO  Finding file file1 on left panel
+2018-02-06 19:28:47,165  INFO  List Item file1 is found, right clicking
+2018-02-06 19:28:48,196  INFO  Selecting property Cut
+2018-02-06 19:28:48,522  INFO  Selecting property Paste in context menu
+2018-02-06 19:28:50,224  INFO  Performing click on Button: Replace
+2018-02-06 19:29:01,583  INFO  Finding file file1 on right panel
+2018-02-06 19:29:06,661  INFO  Finding file file1 on left panel
+2018-02-06 19:29:06,728  INFO  Selecting Show => Separate Tree => 1 (One For Both Panels) =>  in MenuBar: Main app menu
+2018-02-06 19:29:21,531  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:29:21,532  INFO  Object reference not set to an instance of an object.
+2018-02-06 19:29:21,569  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:29:23,295  INFO  Getting selected tab name from  tab
+2018-02-06 19:29:25,039  INFO  Entering text into TextBox — TextBox: Search for. Value for enter — file1
+2018-02-06 19:29:25,534  INFO  Performing click on CheckBox: RegEx
+2018-02-06 19:29:26,695  INFO  Performing click on Button: Start search
+2018-02-06 19:29:29,218  INFO  Performing click on Button: Close Window
+2018-02-06 19:29:29,877  INFO  Killing the app
+2018-02-06 19:29:29,903  INFO  Scenario is finished. 
+
+2018-02-06 19:29:30,010  INFO  Starting the scenario...
+2018-02-06 19:29:30,055  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 19:29:30,872  INFO  Performing click on Button: Button to start using app
+2018-02-06 19:29:31,158  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:29:35,389  INFO  Performing click on New panel...
+2018-02-06 19:29:37,468  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub3
+2018-02-06 19:29:37,553  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:29:37,730  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:29:43,789  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:29:43,828  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:29:48,021  INFO  Performing click on New panel...
+2018-02-06 19:29:50,103  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub4
+2018-02-06 19:29:50,185  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:29:50,328  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:29:56,202  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:29:56,237  INFO  List Item file1 is found, getting clickable point
+2018-02-06 19:29:56,295  INFO  Performing drag and drop
+2018-02-06 19:29:58,525  INFO  Performing click on Button: Confirm movement
+2018-02-06 19:29:58,874  INFO  Killing the app
+2018-02-06 19:29:58,917  INFO  Starting the scenario...
+2018-02-06 19:29:58,955  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 19:29:59,643  INFO  Performing click on Button: Button to start using app
+2018-02-06 19:29:59,862  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:30:04,068  INFO  Performing click on New panel...
+2018-02-06 19:30:06,154  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub3
+2018-02-06 19:30:06,228  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:30:06,376  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:30:12,397  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:30:12,430  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:30:16,629  INFO  Performing click on New panel...
+2018-02-06 19:30:18,700  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub4
+2018-02-06 19:30:18,781  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:30:18,959  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:30:24,849  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:30:24,891  INFO  List Item file1 is found, getting clickable point
+2018-02-06 19:30:24,950  INFO  Performing drag and drop
+2018-02-06 19:30:27,169  INFO  Performing click on Button: Confirm movement
+2018-02-06 19:30:27,388  INFO  Killing the app
+2018-02-06 19:30:27,407  INFO  Scenario is finished. 
+
+2018-02-06 19:31:29,203  INFO  Starting the scenario...
+2018-02-06 19:31:29,287  INFO  Starting app TOTALCMD64.exe from C:\\totalcmd
+2018-02-06 19:31:30,422  INFO  Performing click on Button: Button to start using app
+2018-02-06 19:31:30,773  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:31:35,001  INFO  Performing click on New panel...
+2018-02-06 19:31:37,111  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub3
+2018-02-06 19:31:37,196  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:31:37,353  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:31:43,422  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub3
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:31:43,461  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:31:47,663  INFO  Performing click on New panel...
+2018-02-06 19:31:49,733  INFO  Setting value into — TextBox: Edit path. Value for enter — C:\sub4
+2018-02-06 19:31:49,806  INFO  Sending key to — TextBox: Edit path. Key for enter — RETURN
+2018-02-06 19:31:49,950  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:31:55,852  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=pane,Name=C:\sub4
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:31:55,889  INFO  List Item file1 is found, getting clickable point
+2018-02-06 19:31:55,947  INFO  Performing drag and drop
+2018-02-06 19:31:58,154  INFO  Performing click on Button: Confirm movement
+2018-02-06 19:32:03,408  INFO  Finding file file1 on right panel
+2018-02-06 19:32:08,512  INFO  Finding file file1 on left panel
+2018-02-06 19:32:08,551  INFO  List Item file1 is found, right clicking
+2018-02-06 19:32:09,579  INFO  Selecting property Cut
+2018-02-06 19:32:09,910  INFO  Selecting property Paste in context menu
+2018-02-06 19:32:11,646  INFO  Performing click on Button: Replace
+2018-02-06 19:32:23,022  INFO  Finding file file1 on right panel
+2018-02-06 19:32:28,107  INFO  Finding file file1 on left panel
+2018-02-06 19:32:28,191  INFO  Selecting Show => Separate Tree => 1 (One For Both Panels) =>  in MenuBar: Main app menu
+2018-02-06 19:32:42,324  INFO  Element is not found: TestStack.White.AutomationException: Failed to get ControlType=list view,Name=W_TreeList1
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria, TimeSpan timeout) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 126
+   at TestStack.White.UIItems.UIItemContainer.Get(SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 65
+   at TestStack.White.UIItems.UIItemContainer.Get[T](SearchCriteria searchCriteria) in c:\TeamCity\buildAgent\work\89a20b30302799e\src\TestStack.White\UIItems\UIItemContainer.cs:line 60
+   at TestStackFramework.framework.elements.BaseUiItem`1.Find(SearchCriteria searchCriteria, Window window) in D:\TestStack\TotalCommander\TestStackFramework\framework\elements\BaseUiItem.cs:line 41
+2018-02-06 19:32:42,325  INFO  Object reference not set to an instance of an object.
+2018-02-06 19:32:42,352  INFO  Performing click on ListBox: File Panel
+2018-02-06 19:32:43,793  INFO  Getting selected tab name from  tab
+2018-02-06 19:32:45,521  INFO  Entering text into TextBox — TextBox: Search for. Value for enter — file1
+2018-02-06 19:32:46,011  INFO  Performing click on CheckBox: RegEx
+2018-02-06 19:32:47,144  INFO  Performing click on Button: Start search
+2018-02-06 19:32:49,766  INFO  Performing click on Button: Close Window
+2018-02-06 19:32:50,293  INFO  Item .. is found on left panel
+2018-02-06 19:32:50,409  INFO  Selecting Files => Edit Comment... =>  in MenuBar: Main app menu
+2018-02-06 19:32:51,538  INFO  Performing click on Button: Close 'edit comment' dialog
+2018-02-06 19:32:51,762  INFO  Selecting Files => Quit =>  in MenuBar: Main app menu
+2018-02-06 19:32:53,710  INFO  Killing the app
+2018-02-06 19:32:53,711  INFO  Scenario is finished. 
+

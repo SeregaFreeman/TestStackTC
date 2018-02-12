@@ -30,11 +30,5 @@ namespace TestStackFramework.framework
             LoggerUtil.Info("Killing the app");
             Application.Kill();
         }
-
-        public static bool IsWindowOpen(string title)
-        {
-            Scope.DefaultWindow = Scope.Application.Application.GetWindows().FirstOrDefault();
-            return Scope.DefaultWindow.Title == title;
-        }
     }
 }

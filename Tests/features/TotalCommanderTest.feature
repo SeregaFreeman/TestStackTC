@@ -1,22 +1,32 @@
 ﻿Feature: TotalCommanderTest
 
 Scenario: Basic total commander scenario
-	Given Folders "C:\\sub3", "C:\\sub4" with files "file1", "file2"  were created if was needed
+	Given The following folders were created if were absent:
+	| Folder path |
+	| C:\sub3     |
+	| D:\sub4     |
+	  And The following files were created in corresponding folders:
+	  | Folder path | File name |
+	  | C:\sub3     | file1     |
+	  | D:\sub4     | file2     |
 
 	When User opens the app
-	  Then Trial version window is open
+	  Then "Trial version welcome" window is opened
 
     When User clicks button with proper number to access app
-	  Then Main window is open
+	  Then "Main" window is opened
 
-	When User opens folder "C:\sub3" in "left" panel
-	  Then folder "C:\sub3" is open in "left" panel
+	When User opens following folders on corresponding panels:
+	| Folder path | Panel |
+	| C:\sub3     | left  |
+	| D:\sub4     | right |
+	  Then Following folders are open on corresponding panels:
+	  | Folder path | Panel |
+	  | C:\sub3     | left  |
+	  | D:\sub4     | right |
 
-	When User opens folder "C:\sub4" in "right" panel
-	  Then folder "C:\sub4" is open in "right" panel
-
-    When User moves "file1" from "left" panel to "right"
-	  Then Confirmation window is open
+    When User moves "file1" from "left" panel to "right" using drag and drop
+	  Then Confirmation window is active
 
 	When User confirms file movement
 	  Then "file1" is present on "right" panel
@@ -24,17 +34,17 @@ Scenario: Basic total commander scenario
 
 	When User selects "Cut" option from context menu for "file1" on "right" panel
 	  And User selects "Paste" option from context menu on "left" panel
-	  Then Replace or skip files window is open
+	  Then "Replace or Skip Files" window is opened
 
 	When User clicks "Replace" button on dialog window
 	  Then "file1" is absent on "right" panel
 	    And "file1" is present on "left" panel
 
-	When User selects "Show" => "Separate Tree" => "1 (One For Both Panels)" from the main app menu
-	  Then Side panel is open
+	When User selects "Show/Separate Tree/1 (One For Both Panels)" from the main app menu
+	  Then Side panel is opened
 
 	When User clicks "2" times on "Switch through tree panel options" icon
-	  Then Side panel is not open
+	  Then Side panel is not opened
 
 	When User makes "left" panel active
 	  And User clicks "1" times on "Search" icon
@@ -50,11 +60,11 @@ Scenario: Basic total commander scenario
 	   Then Search window is closed
 
 	When User unselects all files on "left" panel
-	  And User selects "Files", "Edit Comment..." from the main app menu
-	  Then Warning window is open
+	  And User selects "Files/Edit Comment..." from the main app menu
+	  Then Warning window is active
 
-	When User closes warning window
+	When User closes warning dialog
 	  Then Warning window is closed
 
-    When User selects "Files", "Quit" from the main app menu
+    When User selects "Files/Quit" from the main app menu
 	  Then App is closed

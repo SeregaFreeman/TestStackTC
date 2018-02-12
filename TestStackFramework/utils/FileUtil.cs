@@ -4,7 +4,7 @@ namespace TestStackFramework.utils
 {
     public class FileUtil
     {
-        public static void CreateFolder(string folderName)
+        public static void CreateDirectory(string folderName)
         {
             if (!Directory.Exists(folderName))
             {
@@ -30,8 +30,12 @@ namespace TestStackFramework.utils
             }
         }
 
-        public static void CleanDirectory(string path)
+        public static void DeleteDirectory(string path, bool recursive=false)
         {
+            if (Directory.Exists(path))
+            {
+                Directory.Delete(path, recursive);
+            }
         }
     }
 }
