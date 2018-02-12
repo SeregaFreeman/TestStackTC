@@ -59,8 +59,7 @@ namespace Tests.steps
                     window = windowName;
                     break;
             }
-            var isWindowOpen = Retry.For(() => WindowBl.IsDefaultWindowOpen(window),
-                TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
+            var isWindowOpen = WaitUtil.WaitForCondition(() => WindowBl.IsDefaultWindowOpen(window));
             AssertionUtil.AssertTrue(isWindowOpen, $"{windowName} is not open");
         }
 
@@ -295,8 +294,8 @@ namespace Tests.steps
         [Then(@"App is closed")]
         public void AssertAppIsClosed()
         {
-            Retry.For(() => Scope.Application.Application.HasExited, TimeSpan.FromSeconds(Convert.ToDouble(ConfigurationManager.AppSettings["defaultTimeout"])));
-            AssertionUtil.AssertTrue(Scope.Application.Application.HasExited, "App is not stopped yet");
+            var hasExited = WaitUtil.WaitForCondition(() => Scope.Application.Application.HasExited);
+            AssertionUtil.AssertTrue(hasExited, "App is not stopped yet");
         }
     }
 }
